@@ -13,4 +13,10 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_carton">Reciclado de carton</string>
+    <string name="img_descr_papel">Imagen de papel para reciclar</string>
+    <string name="img_descr_vidrio">Imagen Vidrio para reciclar</string>
+    <string name="img_descr_plastico">Imagen Plastico para reciclar</string>
+    <string name="img_descr_metal">Imagen metal para reciclar</string>
+    <string name="img_descr_pila">Imagen pila para recicalr</string>
+    <string name="img_descr_goma">Imagen para reutilizar la goma</string>
 </resources>

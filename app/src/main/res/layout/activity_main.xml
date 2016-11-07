@@ -1,81 +1,104 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context="com.example.ruben.appreciclaje.MainActivity">
+<!-- view for AdMob Interstitial Ad -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ruben.appreciclaje.MainActivity">
 
-    <!-- view for AdMob Interstitial Ad -->
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
+        android:id="@+id/scrollIndex"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
-                android:id="@+id/imagePapel"
-                android:layout_weight="1"
-                android:background="@mipmap/image_papel"/>
+                <ImageView
+                    android:id="@+id/imagePapel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ic_papel"
+                    android:contentDescription="@string/img_descr_papel"
+                    android:scaleType="center"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"/>
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_expanded_controller_seekbar_thumb"
-                android:id="@+id/imageVidrio"
-                android:layout_weight="1"
-                android:visibility="visible"
-                android:background="@mipmap/img_vidrio"/>
+                <ImageView
+                    android:id="@+id/imageVidrio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ic_vidrio"
+                    android:contentDescription="@string/img_descr_vidrio"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagePlastico"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ic_plastico"
+                    android:contentDescription="@string/img_descr_plastico"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/imageMetal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@mipmap/image_metal"
+                    android:contentDescription="@string/img_descr_metal"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageBateria"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ic_bateria"
+                    android:contentDescription="@string/img_descr_pila"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/imageGoma"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_margin="5dp"
+                    android:background="@mipmap/image_goma"
+                    android:contentDescription="@string/img_descr_goma"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="150dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
-                android:id="@+id/imagePlastico"
-                android:layout_weight="1"
-                android:background="@mipmap/image_plastico"/>
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_expanded_controller_seekbar_thumb"
-                android:id="@+id/imageMetal"
-                android:layout_weight="1"
-                android:visibility="visible"
-                android:background="@mipmap/image_metal"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="150dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
-                android:id="@+id/imageBateria"
-                android:layout_weight="1"
-                android:background="@mipmap/image_pila"/>
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/cast_expanded_controller_seekbar_thumb"
-                android:id="@+id/imageGoma"
-                android:layout_weight="1"
-                android:visibility="visible"
-                android:background="@mipmap/image_goma"/>
-        </LinearLayout>
-    </LinearLayout>
-</RelativeLayout>
+    </ScrollView>
+</LinearLayout>
