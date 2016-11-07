@@ -22,7 +22,7 @@
                 app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
                 android:id="@+id/imagePapel"
                 android:layout_weight="1"
-                android:background="@mipmap/image_carton"/>
+                android:background="@mipmap/image_papel"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -43,7 +43,8 @@
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
                 android:id="@+id/imagePlastico"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@mipmap/image_plastico"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -52,7 +53,7 @@
                 android:id="@+id/imageMetal"
                 android:layout_weight="1"
                 android:visibility="visible"
-                android:backgroundTint="@mipmap/image_carton"/>
+                android:background="@mipmap/image_metal"/>
         </LinearLayout>
 
         <LinearLayout
@@ -64,7 +65,8 @@
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
                 android:id="@+id/imageBateria"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@mipmap/image_pila"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
