@@ -114,4 +114,5 @@
     <string name="title_activity_metal">MetalActivity</string>
     <string name="title_activity_bateria">BateriaActivity</string>
     <string name="title_activity_goma">GomaActivity</string>
+    <string name="title_activity_basurero">Basurero</string>
 </resources>
