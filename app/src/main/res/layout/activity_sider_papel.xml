@@ -41,7 +41,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="429dp"
-                    app:srcCompat="@mipmap/pacman9"
+                    app:srcCompat="@mipmap/ip_papel"
                     android:id="@+id/conceptual"
                     android:layout_weight="1" />
             </LinearLayout>
