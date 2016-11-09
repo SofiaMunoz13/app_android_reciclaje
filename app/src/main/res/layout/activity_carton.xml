@@ -75,7 +75,9 @@
                     app:srcCompat="@mipmap/gps_image"
                     android:id="@+id/b"
                     android:layout_weight="0.06"
-                    android:scaleType="fitCenter" />
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/img_descr_goma"
+                    android:clickable="false" />
 
             </LinearLayout>
 
