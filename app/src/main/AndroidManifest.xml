@@ -120,6 +120,26 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ruben.appreciclaje.MainActivity" />
         </activity>
+        <activity
+            android:name=".MapsActivityPapel"
+            android:label="@string/title_activity_maps_papel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ruben.appreciclaje.CartonActivity" />
+        </activity>
+        <activity
+            android:name=".SiderInfoPapel"
+            android:label="@string/title_activity_sider_info_papel"
+            android:parentActivityName=".CartonActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ruben.appreciclaje.CartonActivity" />
+        </activity>
+        <activity
+            android:name=".Sider_papel"
+            android:label="@string/title_activity_sider_papel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

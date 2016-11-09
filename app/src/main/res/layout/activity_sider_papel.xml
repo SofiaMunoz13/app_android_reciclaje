@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ruben.appreciclaje.Sider_papel"
+    android:id="@+id/pacman">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="855dp"
+        android:id="@+id/segun4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/pacman1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:id="@+id/paccman2">
+
+                <TextView
+                    android:text="@string/informacion_papel_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PapelPropiedad1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="654dp"
+                android:id="@+id/pacman3">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="429dp"
+                    app:srcCompat="@drawable/IdescripPapel"
+                    android:id="@+id/conceptual"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
