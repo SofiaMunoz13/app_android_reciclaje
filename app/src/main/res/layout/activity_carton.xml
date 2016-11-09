@@ -96,7 +96,38 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                android:id="@+id/sider2"></LinearLayout>
+                android:id="@+id/sider2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_width="190dp"
+                    android:id="@+id/MasInformacion">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_bateria"
+                        android:id="@+id/MasInfo"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_width="190dp"
+                    android:id="@+id/Estadistica">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_plusone_standard_off_client"
+                        android:id="@+id/mEstadist"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside" />
+                </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
