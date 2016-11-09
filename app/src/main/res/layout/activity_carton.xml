@@ -69,16 +69,15 @@
                     android:layout_weight="0.06"
                     android:scaleType="center" />
 
-                <ImageView
+                <ImageButton
                     android:layout_width="wrap_content"
-                    android:layout_height="104dp"
+                    android:layout_height="match_parent"
                     app:srcCompat="@mipmap/gps_image"
                     android:id="@+id/b"
                     android:layout_weight="0.06"
                     android:scaleType="fitCenter"
-                    android:contentDescription="@string/img_descr_goma"
-                    android:clickable="true"
-                    android:contextClickable="true" />
+                    android:contentDescription="@string/img_descr_pila"
+                    android:background="@drawable/cast_abc_scrubber_control_off_mtrl_alpha" />
 
             </LinearLayout>
 
