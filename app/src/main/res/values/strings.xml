@@ -58,6 +58,46 @@
 
     </string>
 
+    <string name="informacion_carton_text">
+        "El cartón es un material formado por varias capas de papel superpuestas, "
+        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
+        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
+        "básicamente cajas de diversos tipos.\n\n"
+        "Tipos de cartón\n\n"
+        "Según la materia prima empleada en su fabricación, pueden distinguirse cuatro tipos de"
+        "cartoncillo:\n"
+
+        "Cartón sólido blanqueado o cartulinas, SBS \n"
+        "Fabricado con pasta química blanqueada en las capas interiores y capas de estuco en la"
+        "cara superior y en el reverso. Se utiliza para envase de la industria cosmética, "
+        "farmacéutica y otros envases de lujo.\n\n"
+        "Cartón sólido no blanqueado, SUS\n"
+        "Más resistente que el anterior, se utiliza para embalajes de bebidas (grupos de botellas"
+        "y latas, etc.).\n"
+        "Cartón folding, GC \n"
+        "Es fabricado con varias capas de pasta mecánica entre capas de pasta química. "
+        "Se utiliza en envases de alimentos congelados y refrigerados, de dulces, etc.\n\n "
+        "Cartón de fibras recicladas, GD y GT  \n"
+        "Es fabricado con fibras recuperadas; está formado por muchas capas de diversos tipos "
+        "de fibras. Se utiliza para los envases de cereales, juguetes, zapatos, etc. \n\n"
+
+    </string>
+
+     <string name="informacion_plastico_text">
+        "El cartón es un material formado por varias capas de papel superpuestas, "
+        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
+        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
+        "básicamente cajas de diversos tipos."
+
+    </string> <string name="informacion_vidrio_text">
+        "El cartón es un material formado por varias capas de papel superpuestas, "
+        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
+        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
+        "básicamente cajas de diversos tipos."
+
+    </string>
+
+
      <string name="large_text">
         "Material is the metaphor.\n\n"
 

@@ -36,11 +36,18 @@
 
                         <TextView
                             android:text="@string/informacion_papel_text"
-                            android:layout_width="wrap_content"
+                            android:layout_width="224dp"
                             android:layout_height="match_parent"
                             android:id="@+id/PapelPropiedad1"
                             android:textAlignment="center" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"></LinearLayout>
+
                     </LinearLayout>
+
                 </LinearLayout>
             </ScrollView>
 
