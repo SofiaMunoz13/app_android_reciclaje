@@ -22,26 +22,26 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="305dp"
+                android:layout_height="189dp"
                 android:id="@+id/paccman2">
 
                 <TextView
                     android:text="@string/informacion_papel_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="225dp"
                     android:id="@+id/PapelPropiedad1" />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="654dp"
+                android:layout_height="910dp"
                 android:id="@+id/pacman3">
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="429dp"
-                    app:srcCompat="@mipmap/ip_papel"
+                    android:layout_height="541dp"
+                    app:srcCompat="@mipmap/conceptual1"
                     android:id="@+id/conceptual"
                     android:layout_weight="1" />
             </LinearLayout>
