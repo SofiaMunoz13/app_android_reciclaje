@@ -139,6 +139,14 @@
         <activity
             android:name=".Sider_papel"
             android:label="@string/title_activity_sider_papel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2ActivityEstadistica"
+            android:label="@string/title_activity_main2_estadistica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EstadisPapel"
+            android:label="@string/title_activity_estadis_papel"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

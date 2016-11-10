@@ -40,13 +40,13 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="informacion_papel_text">
-        "RECOJIDA DEL ENVASE \n\n"
+                                  "RECOJIDA DEL ENVASE \n\n"
 
         "Una vez que los productos han sido consumidos, el envase deja de cumplir la función para "
         "el que fue creado y se convierte en residuo.Es en ese momento cuando hay que recuperarlo "
         "para que pueda ser reciclado y contribuir así con el cuidado del medio ambiente.\n"
 
-        "Los envases de papel y cartón van al contenedor azul.\n\n"
+                "Los envases de papel y cartón van al contenedor azul.\n\n"
 
 
     </string>
@@ -149,4 +149,6 @@
     <string name="title_activity_maps_papel">Map</string>
     <string name="title_activity_sider_info_papel">SiderInfoPapel</string>
     <string name="title_activity_sider_papel">Sider_papel</string>
+    <string name="title_activity_main2_estadistica">Main2ActivityEstadistica</string>
+    <string name="title_activity_estadis_papel">EstadisPapel</string>
 </resources>

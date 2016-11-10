@@ -5,49 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.ruben.appreciclaje.Sider_papel"
-    android:id="@+id/pacman">
+    tools:context="com.example.ruben.appreciclaje.EstadisPapel"
+    android:id="@+id/Esta01">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="855dp"
-        android:id="@+id/segun4">
+        android:layout_height="match_parent"
+        android:id="@+id/esta02">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:id="@+id/pacman1">
+            android:id="@+id/est03" >
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="189dp"
-                android:id="@+id/paccman2">
+                android:layout_height="86dp"
+                android:id="@+id/est04">
 
                 <TextView
-                    android:text="@string/informacion_papel_text"
+                    android:text="@string/Papel_text"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:id="@+id/PapelPropiedad1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/esta06"
+                    android:layout_weight="1"
                     android:textAlignment="center" />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="910dp"
-                android:id="@+id/pacman3">
+                android:layout_height="478dp"
+                android:id="@+id/est05">
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="541dp"
-                    app:srcCompat="@mipmap/conceptual1"
-                    android:id="@+id/conceptual"
-                    android:layout_weight="1" />
+                    android:layout_height="431dp"
+                    app:srcCompat="@mipmap/estadistica1"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:scaleType="center" />
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
-
 </android.support.design.widget.CoordinatorLayout>
