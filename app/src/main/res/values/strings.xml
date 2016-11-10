@@ -198,4 +198,5 @@
     <string name="title_activity_sider_papel">Sider_papel</string>
     <string name="title_activity_main2_estadistica">Main2ActivityEstadistica</string>
     <string name="title_activity_estadis_papel">EstadisPapel</string>
+    <string name="title_activity_organico">OrganicoActivity</string>
 </resources>

@@ -64,7 +64,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@mipmap/image_papel"
+                    app:srcCompat="@mipmap/ic_launcher"
                     android:id="@+id/a"
                     android:layout_weight="0.06"
                     android:scaleType="center" />
@@ -72,7 +72,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@mipmap/gps_image"
+                    app:srcCompat="@mipmap/ic_launcher"
                     android:id="@+id/b"
                     android:layout_weight="0.06"
                     android:scaleType="fitCenter"
@@ -124,11 +124,10 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/ic_bateria"
+                        app:srcCompat="@mipmap/ic_launcher"
                         android:id="@+id/MasInfo"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
-                        android:contextClickable="false"
                         android:contentDescription="@string/img_descr_pila" />
                 </LinearLayout>
 
@@ -164,47 +163,24 @@
                     <ImageButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/ic_plastico"
+                        app:srcCompat="@mipmap/ic_launcher"
                         android:id="@+id/a1"
                         android:scaleType="fitCenter" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_height="match_parent"
-                    android:id="@+id/boton_2"
-                    android:layout_width="64dp"></LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_height="match_parent"
-                    android:id="@+id/boton_3"
-                    android:layout_width="65dp"></LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_height="match_parent"
-                    android:id="@+id/boton_4"
-                    android:layout_width="65dp"></LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_height="match_parent"
-                    android:id="@+id/boton_5"
-                    android:layout_width="65dp"></LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.27"
-                    android:id="@+id/boton_6"
-                    android:layout_width="62dp">
+                    android:id="@+id/boton_6">
 
                     <ImageButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/ic_vidrio"
-                        android:id="@+id/b1" />
+                        app:srcCompat="@mipmap/ic_launcher"
+                        android:id="@+id/b1"
+                        android:contentDescription=""/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

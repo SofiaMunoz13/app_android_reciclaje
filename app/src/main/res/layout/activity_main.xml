@@ -29,7 +29,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@drawable/ic_papel"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_papel"
                     android:scaleType="center"
                     android:adjustViewBounds="false"
@@ -41,7 +41,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@drawable/ic_vidrio"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_vidrio"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
@@ -58,7 +58,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@drawable/ic_plastico"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_plastico"
                     android:scaleType="centerCrop"/>
 
@@ -68,7 +68,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/image_metal"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_metal"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
@@ -85,7 +85,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@drawable/ic_bateria"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_pila"
                     android:scaleType="centerCrop"/>
 
@@ -95,7 +95,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/image_goma"
+                    android:background="@mipmap/ic_launcher"
                     android:contentDescription="@string/img_descr_goma"
                     android:scaleType="centerCrop"/>
             </LinearLayout>

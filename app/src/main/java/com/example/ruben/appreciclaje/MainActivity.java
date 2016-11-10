@@ -16,8 +16,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setImageAction();
     }
     private void setImageAction() {
-        ImageView imgPapel = (ImageView) findViewById(R.id.imagePapel);
-        imgPapel.setOnClickListener(this);
         ImageView imgVidrio = (ImageView) findViewById(R.id.imageVidrio);
         imgVidrio.setOnClickListener(this);
         ImageView imgPlastico = (ImageView) findViewById(R.id.imagePlastico);
@@ -26,8 +24,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         imgMetal.setOnClickListener(this);
         ImageView imgBateria = (ImageView) findViewById(R.id.imageBateria);
         imgBateria.setOnClickListener(this);
-        ImageView imgGoma = (ImageView) findViewById(R.id.imageGoma);
-        imgGoma.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -47,10 +43,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         Intent activity;
         switch(view.getId()) {
-            case R.id.imagePapel:
-                activity = new Intent(MainActivity.this, CartonActivity.class);
-                startActivity(activity);
-                break;
             case R.id.imagePlastico:
                 activity = new Intent(MainActivity.this, PlasticoActivity.class);
                 startActivity(activity);
@@ -63,14 +55,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 activity = new Intent(MainActivity.this, MetalActivity.class);
                 startActivity(activity);
                 break;
-            case R.id.imageBateria:
+            /*case R.id.imageBateria:
                 activity = new Intent(MainActivity.this, BateriaActivity.class);
                 startActivity(activity);
-                break;
-            case R.id.imageGoma:
-                activity = new Intent(MainActivity.this, GomaActivity.class);
-                startActivity(activity);
-                break;
+                break;*/
         }
     }
 }
