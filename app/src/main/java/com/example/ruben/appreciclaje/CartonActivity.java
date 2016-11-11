@@ -14,7 +14,6 @@ public class CartonActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carton);
         getCabecera();
-
     }
     private void getCabecera() {Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -22,7 +21,6 @@ public class CartonActivity extends AppCompatActivity implements View.OnClickLis
         fab.setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
     @Override
     public void onClick(View view) {
         switch(view.getId()){

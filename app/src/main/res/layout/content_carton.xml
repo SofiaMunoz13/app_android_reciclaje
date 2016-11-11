@@ -9,10 +9,145 @@
     tools:context="com.example.ruben.appreciclaje.CartonActivity"
     tools:showIn="@layout/activity_carton">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/Papel_text"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:id="@+id/iconos1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    android:id="@+id/a"
+                    android:layout_weight="0.06"
+                    android:scaleType="center" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    android:id="@+id/b"
+                    android:layout_weight="0.06"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/img_descr_pila"
+                    android:background="@drawable/cast_abc_scrubber_control_off_mtrl_alpha" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:id="@+id/Descripcion">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:text="@string/informacion_carton_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView"
+                            android:layout_weight="1"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                android:id="@+id/sider2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_width="190dp"
+                    android:id="@+id/MasInformacion">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_launcher"
+                        android:id="@+id/MasInfo"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/img_descr_pila" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_width="190dp"
+                    android:id="@+id/Estadistica">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_plusone_standard_off_client"
+                        android:id="@+id/mEstadist"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:weightSum="1"
+                android:id="@+id/norman">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:id="@+id/boton1"
+                    android:layout_width="60dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_launcher"
+                        android:id="@+id/a1"
+                        android:scaleType="fitCenter" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.27"
+                    android:id="@+id/boton_6">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_launcher"
+                        android:id="@+id/b1"
+                        android:contentDescription=""/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.v4.widget.NestedScrollView>
