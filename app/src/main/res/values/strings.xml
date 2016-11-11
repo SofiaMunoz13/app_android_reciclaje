@@ -55,45 +55,155 @@
         "función de las calidades, pasan a ser reciclados para posteriormente convertirse en nuevo"
         "material de papel y cartón.\n\n"
 
-
     </string>
 
     <string name="informacion_carton_text">
-        "El cartón es un material formado por varias capas de papel superpuestas, "
-        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
-        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
-        "básicamente cajas de diversos tipos.\n\n"
-        "Tipos de cartón\n\n"
-        "Según la materia prima empleada en su fabricación, pueden distinguirse cuatro tipos de"
-        "cartoncillo:\n"
+        "El papel y cartón son una de las formas más beneficiosas de reciclaje para el medio "
+        "ambiente, es importante recalcar que el papel está compuesto de fibras orgánicas las "
+        "cuales se pueden volver a aprovechar para un nuevo papel.\n"
+        "El proceso de reciclaje  es clasificar el papel de la siguiente manera:\n\n"
 
-        "Cartón sólido blanqueado o cartulinas, SBS \n"
-        "Fabricado con pasta química blanqueada en las capas interiores y capas de estuco en la"
-        "cara superior y en el reverso. Se utiliza para envase de la industria cosmética, "
-        "farmacéutica y otros envases de lujo.\n\n"
-        "Cartón sólido no blanqueado, SUS\n"
-        "Más resistente que el anterior, se utiliza para embalajes de bebidas (grupos de botellas"
-        "y latas, etc.).\n"
-        "Cartón folding, GC \n"
-        "Es fabricado con varias capas de pasta mecánica entre capas de pasta química. "
-        "Se utiliza en envases de alimentos congelados y refrigerados, de dulces, etc.\n\n "
-        "Cartón de fibras recicladas, GD y GT  \n"
-        "Es fabricado con fibras recuperadas; está formado por muchas capas de diversos tipos "
-        "de fibras. Se utiliza para los envases de cereales, juguetes, zapatos, etc. \n\n"
+        "-Separar el papel blanco o papel de escritorio de los de color.\n"
+        "-Retirar los objetos de metal o plástico que tienen añadidos.\n"
+        "-Recuerda que para reciclar papel, deberás depositarlo en el contenedor de color azul. No "
+        "lo olvides.\n\n"
+
+        "El proceso de reciclaje, pasa por varias fases.\n\n"
+
+        "-	La selección o clasificación\n"
+        "-	Molienda donde el papel es triturado.\n"
+        "-	Plastificación que consiste en añadir disolventes químicos para que las fibras del "
+        "papel se separen.\n"
+        "-	Reciclado del papel consiste en una criba de todo material que no es papel “sacar las "
+        "impurezas del papel”.\n"
+        "-	Centrifugación para  que el material sea separado por su densidad y las partículas "
+        "de tinta sean eliminadas por las burbujas de aire.\n"
+        "-	Pasta de papel es la materia esperada al cual se blanquea con peróxido de hidrogeno o "
+        "hidrosulfito de sodio.\n\n"
+
+        "Dato curioso:\n\n"
+
+        "Seis cajas de leche en cartón de PIL hacen una caja de zapatos.\n\n"
 
     </string>
 
-     <string name="informacion_plastico_text">
-        "El cartón es un material formado por varias capas de papel superpuestas, "
-        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
-        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
-        "básicamente cajas de diversos tipos."
+    <string name="informacion_metal_text">
+        "Entre los metales reciclables los más rentables para la industria son el aluminio, cobre "
+        "perfiles de construcción.\n"
+        "Se tiene que considerar que los metales oxidan la tierra generando desgaste en la misma.\n"
+        "-Resguarda los metales de la humedad.\n"
+        "-Clasifica los materiales como aluminio, cobre y hierro.\n"
+        "-Este material va en el contenedor de color Amarillo.\n\n"
 
-    </string> <string name="informacion_vidrio_text">
-        "El cartón es un material formado por varias capas de papel superpuestas, "
-        "a base de fibra virgen o de papel reciclado. El cartón es más grueso, duro y resistente"
-        "que el papel. Algunos tipos de cartón son usados para fabricar embalajes y envases, "
-        "básicamente cajas de diversos tipos."
+        "El proceso de reciclaje\n\n"
+
+        "Entre los metales el más beneficioso es el Aluminio.\n\n"
+
+        "-Comienza con la recolección.\n"
+        "-Traslado a la planta.\n"
+        "-Separación y limpia.\n"
+        "-Aplastamiento en grandes bloques.\n"
+        "-Fundición.\n"
+        "-Creado de láminas de aluminio para su nuevo uso.\n"
+        "-Para el hierro y cobre se lleva el mismo proceso solo varían las temperaturas de "
+        "fundición.\n\n"
+
+
+    </string>
+
+     <string name="informacion_bateria_text">
+         "Pilas y Baterías\n"
+         "El reciclaje de las Pilas y Baterías, es de vital importancia para el medio ambiente, "
+         "al tratarse de productos altamente tóxicos.\n\n"
+
+         "Las Pilas y Baterías pasan sus residuos tóxicos en especial al suelo y al agua.\n"
+         "Con este elemento no sabemos qué hacer por lo cual debemos depositarlos en contenedores "
+         "de color Rojo o Aislarlos del suelo.\n\n"
+
+         "Recomendación \n\n"
+
+         "-Trate de ponerlos muy separados de otros materiales. \n"
+         "-Utilice un contenedor de plástico, trate de mantenerlo tapado y aislado del medio "
+         " ambiente. \n\n"
+
+         "Dato Curioso: \n\n"
+
+         "Una pila en el suelo emite emisiones de mercurio el cual por ser un metal pesado baja "
+         "hasta las aguas subterráneas contaminando el ecosistema.\n\n"
+    </string>
+     <string name="informacion_organico_text">
+         "Es aquella materia que proviene de desechos naturales como son los alimentos, hojas, "
+         "seres vivos o excrementos. \n"
+
+         "Estos restos tienen un proceso natural de descomposición, por lo que rápidamente "
+         "desaparecen para formar parte del nuevo ciclo de la vida. \n\n"
+
+
+         "Métodos para acelerar el reciclaje Orgánico. \n\n"
+
+         "Entre estos tenemos dos: \n"
+
+         "Compostaje y Vermicompostaje \n\n"
+
+
+         "El reciclaje orgánico se está empleando últimamente en la elaboración de "
+         "biocombustibles, obtenido de semillas y fruta seca, creando alternativas sostenibles "
+         "y baratas a los combustibles de origen fósil. \n"
+
+         "En el reciclaje orgánico o basura orgánica a nivel doméstico, podemos utilizar el "
+         "reciclaje orgánico como abono si tenemos plantas, un pequeño jardín con huerta o un "
+         "huerto urbano. La forma idónea para no tener malos olores por la descomposición de esta "
+         "basura orgánica, es enterrar en tierra los restos de frutas y verduras, que tienen un "
+         "proceso de descomposición más rápido. \n\n"
+
+    </string>
+
+
+     <string name="informacion_plastico_text">
+         "El plástico es una gran amenaza para el medio ambiente por dos motivos principales, su "
+         "masiva utilización en todo tipo de productos y su lenta degradación.\n"
+         "Los plásticos más comunes que se reciclan, son PVC y PET, siendo el primero mucho más "
+         "contaminante para el medio ambiente.\n"
+         "- En nuestro entorno las botellas de gaseosas no retornables son las más comunes para su "
+         "reciclado.\n"
+         "- Aplasta el envase para reducir el volumen.\n"
+         "- Asegúrate que estén con sus tapas.\n"
+         "- Muy importante los plásticos van en el contenedor de color Amarillo.\n\n"
+
+         "El proceso de reciclaje del Plástico:\n\n"
+
+         "-	Recogida.\n"
+         "-	Rigurosa selección.\n"
+         "-	Limpia con químicos.\n"
+         "-	Moldeamiento de otro envase.\n\n"
+
+         "Dato curioso:\n\n"
+
+         "Las bolsas plásticas tardan 180 Años en degradarse, una herencia que nuestros nietos "
+         "no quisieran tener.\n\n"
+
+    </string>
+    <string name="informacion_vidrio_text">
+        "El vidrio es uno de los materiales más importantes, puede ser recuperado casi en su "
+        "totalidad.\n"
+        "La forma ideal para reciclar vidrio, consiste en almacenarlos en nuestros hogares, todo "
+        "tipos de tarros, botellas o envases de vidrio.\n"
+        "-Separa los vidrios de color cristalino de los vidrios de color.\n"
+        "-Retira las etiquetas de los envases, estos son de papel generalmente.\n"
+        "-Recuerda que para reciclar el vidrio, deberá depositarlo en el contenedor de color"
+        " Verde.\n\n"
+
+        "El proceso de reciclaje de vidrio es circular.\n\n"
+
+        "-	La recogida para su posterior tratamiento en una planta de reciclaje.\n"
+        "-	La molienda.\n"
+        "-	Fundición.\n\n"
+
+        "Dato curioso:\n\n"
+
+        "Con el proceso de reciclaje de vidrio, se ahorra un 30% de energía respecto a obtenerlo "
+        "por primera vez. En pocas palabras sale más económico reusar el vidrio a crear "
+        "nuevo vidrio.\n\n"
 
     </string>
 
