@@ -34,9 +34,11 @@ public class PlasticoActivity extends AppCompatActivity implements View.OnClickL
             case R.id.fab:
                 intent=new Intent(PlasticoActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnPlasticoMethod:
                 intent=new Intent(PlasticoActivity.this,PlasticoMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }

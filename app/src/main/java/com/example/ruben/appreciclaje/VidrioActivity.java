@@ -35,9 +35,11 @@ public class VidrioActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.fab:
                 intent = new Intent(VidrioActivity.this, MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnVidrioMethod:
                 intent = new Intent(VidrioActivity.this, VidrioMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }

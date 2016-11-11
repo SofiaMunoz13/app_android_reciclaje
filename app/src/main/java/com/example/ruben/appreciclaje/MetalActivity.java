@@ -34,9 +34,11 @@ public class MetalActivity extends AppCompatActivity implements View.OnClickList
             case R.id.fab:
                 intent=new Intent(MetalActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnMetalMethod:
                 intent=new Intent(MetalActivity.this,MetalMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }

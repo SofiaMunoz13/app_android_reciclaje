@@ -34,9 +34,11 @@ public class CartonActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.fab:
                 intent=new Intent(CartonActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnCartonMethod:
                 intent=new Intent(CartonActivity.this,CartonMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }

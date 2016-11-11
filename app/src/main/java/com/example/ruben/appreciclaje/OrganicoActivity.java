@@ -34,9 +34,11 @@ public class OrganicoActivity extends AppCompatActivity implements View.OnClickL
             case R.id.fab:
                 intent=new Intent(OrganicoActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnOrganicoMethod:
                 intent=new Intent(OrganicoActivity.this,OrganicoMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }
