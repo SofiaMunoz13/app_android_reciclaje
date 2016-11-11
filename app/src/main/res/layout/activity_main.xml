@@ -1,104 +1,117 @@
-<!-- view for AdMob Interstitial Ad -->
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context="com.example.ruben.appreciclaje.MainActivity">
 
-    <ScrollView
-        android:id="@+id/scrollIndex"
+    <!-- view for AdMob Interstitial Ad -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="UselessParent">
+        android:orientation="vertical"
+        tools:context="com.example.ruben.appreciclaje.MainActivity"
+        android:background="@color/colorFont">
 
-        <LinearLayout
+        <ScrollView
+            android:id="@+id/scrollIndex"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imagePapel"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_papel"
-                    android:contentDescription="@string/img_descr_papel"
-                    android:scaleType="center"
-                    android:adjustViewBounds="false"
-                    android:cropToPadding="false"/>
-
-                <ImageView
-                    android:id="@+id/imageVidrio"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_vidrio"
-                    android:contentDescription="@string/img_descr_vidrio"
-                    android:scaleType="centerCrop"/>
-            </LinearLayout>
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:padding="10dp"
-                android:orientation="horizontal">
-                    
-                <ImageView
-                    android:id="@+id/imagePlastico"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_plastico"
-                    android:contentDescription="@string/img_descr_plastico"
-                    android:scaleType="centerCrop"/>
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageMetal"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_metal"
-                    android:contentDescription="@string/img_descr_metal"
-                    android:scaleType="centerCrop"/>
+                    android:layout_height="175dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imagePapel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:adjustViewBounds="false"
+                        android:background="@mipmap/image_papel"
+                        android:contentDescription="@string/img_descr_papel"
+                        android:cropToPadding="false"
+                        android:scaleType="center"/>
+
+                    <ImageView
+                        android:id="@+id/imageVidrio"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:background="@mipmap/image_vidrio"
+                        android:contentDescription="@string/img_descr_vidrio"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imagePlastico"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:background="@mipmap/image_plastico"
+                        android:contentDescription="@string/img_descr_plastico"
+                        android:scaleType="centerCrop"/>
+
+                    <ImageView
+                        android:id="@+id/imageMetal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:background="@mipmap/image_metal"
+                        android:contentDescription="@string/img_descr_metal"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageBateria"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:background="@mipmap/image_bateria"
+                        android:contentDescription="@string/img_descr_pila"
+                        android:scaleType="centerCrop"/>
+
+                    <ImageView
+                        android:id="@+id/imageOrganico"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight=".5"
+                        android:background="@mipmap/image_organico"
+                        android:contentDescription="@string/img_descr_goma"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout>
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="175dp"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageBateria"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_bateria"
-                    android:contentDescription="@string/img_descr_pila"
-                    android:scaleType="centerCrop"/>
-
-                <ImageView
-                    android:id="@+id/imageOrganico"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
-                    android:layout_margin="5dp"
-                    android:background="@mipmap/image_organico"
-                    android:contentDescription="@string/img_descr_goma"
-                    android:scaleType="centerCrop"/>
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -7,14 +7,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class CartonMetodoActivity extends AppCompatActivity implements View.OnClickListener{
+public class CartonMetodoActivity extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carton_metodo);
         setMenu();
     }
-    private void setMenu() {Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+    private void setMenu() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(this);
@@ -23,9 +24,9 @@ public class CartonMetodoActivity extends AppCompatActivity implements View.OnCl
     @Override
     public void onClick(View view) {
         Intent intent;
-        switch(view.getId()){
+        switch(view.getId()) {
             case R.id.fab:
-                intent=new Intent(CartonMetodoActivity.this,MapsActivity.class);
+                intent = new Intent(CartonMetodoActivity.this, MapsActivity.class);
                 startActivity(intent);
                 break;
         }
