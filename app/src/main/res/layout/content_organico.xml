@@ -9,12 +9,26 @@
     tools:context="com.example.ruben.appreciclaje.OrganicoActivity"
     tools:showIn="@layout/activity_organico">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/informacion_organico_text"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:fontFamily="serif" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:fontFamily="serif"
+            android:text="@string/informacion_organico_text"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+        <Button
+            android:id="@+id/btnOrganicoMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"/>
+
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
