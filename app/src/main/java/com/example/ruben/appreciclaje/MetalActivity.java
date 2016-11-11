@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 
 public class MetalActivity extends AppCompatActivity implements View.OnClickListener{
     @Override
@@ -14,6 +15,11 @@ public class MetalActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_metal);
         getCabecera();
+        setContent();
+    }
+    private void setContent() {
+        Button btn=(Button)findViewById(R.id.btnMetalMethod);
+        btn.setOnClickListener(this);
     }
     private void getCabecera() {Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -23,9 +29,13 @@ public class MetalActivity extends AppCompatActivity implements View.OnClickList
     }
     @Override
     public void onClick(View view) {
+        Intent intent;
         switch(view.getId()){
             case R.id.fab:
-                Intent intent=new Intent(MetalActivity.this,MapsActivity.class);
+                intent=new Intent(MetalActivity.this,MapsActivity.class);
+                startActivity(intent);
+            case R.id.btnMetalMethod:
+                intent=new Intent(MetalActivity.this,MetalMetodoActivity.class);
                 startActivity(intent);
         }
     }
