@@ -43,7 +43,7 @@
                                   "RECOJIDA DEL ENVASE \n\n"
 
         "Una vez que los productos han sido consumidos, el envase deja de cumplir la función para "
-        "el que fue creado y se convierte en residuo.Es en ese momento cuando hay que recuperarlo "
+        "el que fue creado y se convierte en residuo.Es en ese instante cuando hay que recuperarlo "
         "para que pueda ser reciclado y contribuir así con el cuidado del medio ambiente.\n"
 
                 "Los envases de papel y cartón van al contenedor azul.\n\n"
@@ -191,12 +191,12 @@
     <string name="title_activity_plastico">PlasticoActivity</string>
     <string name="title_activity_metal">MetalActivity</string>
     <string name="title_activity_bateria">BateriaActivity</string>
-    <string name="title_activity_goma">GomaActivity</string>
-    <string name="title_activity_basurero">Basurero</string>
     <string name="title_activity_maps_papel">Map</string>
-    <string name="title_activity_sider_info_papel">SiderInfoPapel</string>
-    <string name="title_activity_sider_papel">Sider_papel</string>
-    <string name="title_activity_main2_estadistica">Main2ActivityEstadistica</string>
-    <string name="title_activity_estadis_papel">EstadisPapel</string>
     <string name="title_activity_organico">OrganicoActivity</string>
+    <string name="title_activity_plastico_maps">Map</string>
+    <string name="title_activity_carton_maps">Map</string>
+    <string name="title_activity_organico_maps">Map</string>
+    <string name="title_activity_vidrio_maps">Map</string>
+    <string name="title_activity_bateria_maps">Map</string>
+    <string name="title_activity_metal_maps">Map</string>
 </resources>

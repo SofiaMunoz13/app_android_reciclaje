@@ -87,10 +87,6 @@
                 android:value="com.example.ruben.appreciclaje.MainActivity"/>
         </activity>
         <activity
-            android:name=".Main2ActivityEstadistica"
-            android:label="@string/title_activity_main2_estadistica"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
             android:name=".OrganicoActivity"
             android:label="@string/title_activity_organico"
             android:parentActivityName=".MainActivity"
@@ -104,6 +100,13 @@
             android:label="@string/title_activity_bateria"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ruben.appreciclaje.MainActivity"/>

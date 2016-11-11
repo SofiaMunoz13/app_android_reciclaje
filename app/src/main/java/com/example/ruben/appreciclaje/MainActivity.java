@@ -24,6 +24,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         imgMetal.setOnClickListener(this);
         ImageView imgBateria = (ImageView) findViewById(R.id.imageBateria);
         imgBateria.setOnClickListener(this);
+        ImageView imgOrganico = (ImageView) findViewById(R.id.imageOrganico);
+        imgOrganico.setOnClickListener(this);
+        ImageView imgPapel = (ImageView) findViewById(R.id.imagePapel);
+        imgPapel.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -55,10 +59,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 activity = new Intent(MainActivity.this, MetalActivity.class);
                 startActivity(activity);
                 break;
-            /*case R.id.imageBateria:
+            case R.id.imageBateria:
                 activity = new Intent(MainActivity.this, BateriaActivity.class);
                 startActivity(activity);
-                break;*/
+                break;
+            case R.id.imageOrganico:
+                activity = new Intent(MainActivity.this, OrganicoActivity.class);
+                startActivity(activity);
+                break;
+            case R.id.imagePapel:
+                activity = new Intent(MainActivity.this, CartonActivity.class);
+                startActivity(activity);
+                break;
         }
     }
 }
