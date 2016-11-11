@@ -12,14 +12,14 @@
     <!- -->
     <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_carton">Reciclado de carton</string>
+    <string name="title_carton">Reciclado de papel</string>
     <string name="img_descr_papel">Imagen de papel para reciclar</string>
     <string name="img_descr_vidrio">Imagen Vidrio para reciclar</string>
     <string name="img_descr_plastico">Imagen Plastico para reciclar</string>
     <string name="img_descr_metal">Imagen metal para reciclar</string>
     <string name="img_descr_pila">Imagen pila para recicalr</string>
     <string name="img_descr_goma">Imagen para reutilizar la goma</string>
-    <string name="title_activity_carton">CartonActivity</string>
+    <string name="title_activity_carton">Papel</string>
     <string name="Papel_text">
         "Material is the metaphor.\n\n"
         "The fundamentals of light, surface, and movement are key to conveying how objects move, "
@@ -103,7 +103,7 @@
 
     </string>
 
-     <string name="informacion_bateria_text">
+    <string name="informacion_bateria_text">
          "Pilas y Baterías\n"
          "El reciclaje de las Pilas y Baterías, es de vital importancia para el medio ambiente, "
          "al tratarse de productos altamente tóxicos.\n\n"
@@ -123,7 +123,7 @@
          "Una pila en el suelo emite emisiones de mercurio el cual por ser un metal pesado baja "
          "hasta las aguas subterráneas contaminando el ecosistema.\n\n"
     </string>
-     <string name="informacion_organico_text">
+    <string name="informacion_organico_text">
          "Es aquella materia que proviene de desechos naturales como son los alimentos, hojas, "
          "seres vivos o excrementos. \n"
 
@@ -151,7 +151,7 @@
     </string>
 
 
-     <string name="informacion_plastico_text">
+    <string name="informacion_plastico_text">
          "El plástico es una gran amenaza para el medio ambiente por dos motivos principales, su "
          "masiva utilización en todo tipo de productos y su lenta degradación.\n"
          "Los plásticos más comunes que se reciclan, son PVC y PET, siendo el primero mucho más "
@@ -199,8 +199,7 @@
 
     </string>
 
-
-     <string name="large_text">
+    <string name="large_text">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -302,7 +301,7 @@
     <string name="title_activity_bateria_maps">Map</string>
     <string name="title_activity_metal_maps">Map</string>
     <string name="title_activity_bateria_metodo">BateriaMetodoActivity</string>
-    <string name="title_activity_carton_metodo">CartonMetodoActivity</string>
+    <string name="title_activity_carton_metodo">Metodo de reciclaje de papel</string>
     <string name="title_activity_metal_metodo">MetalMetodoActivity</string>
     <string name="title_activity_organico_metodo">OrganicoMetodoActivity</string>
     <string name="title_activity_plastico_metodo">PlasticoMetodoActivity</string>
