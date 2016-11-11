@@ -19,7 +19,7 @@
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="175dp"
                 android:padding="10dp"
                 android:orientation="horizontal">
 
@@ -29,7 +29,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_papel"
                     android:contentDescription="@string/img_descr_papel"
                     android:scaleType="center"
                     android:adjustViewBounds="false"
@@ -41,14 +41,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_vidrio"
                     android:contentDescription="@string/img_descr_vidrio"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="175dp"
                 android:padding="10dp"
                 android:orientation="horizontal">
                     
@@ -58,7 +58,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_plastico"
                     android:contentDescription="@string/img_descr_plastico"
                     android:scaleType="centerCrop"/>
 
@@ -68,14 +68,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_metal"
                     android:contentDescription="@string/img_descr_metal"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="175dp"
                 android:padding="10dp"
                 android:orientation="horizontal">
 
@@ -85,7 +85,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_bateria"
                     android:contentDescription="@string/img_descr_pila"
                     android:scaleType="centerCrop"/>
 
@@ -95,7 +95,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
                     android:layout_margin="5dp"
-                    android:background="@mipmap/ic_launcher"
+                    android:background="@mipmap/image_organico"
                     android:contentDescription="@string/img_descr_goma"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
