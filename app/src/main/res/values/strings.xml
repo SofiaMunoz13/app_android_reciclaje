@@ -308,5 +308,5 @@
     <string name="title_activity_vidrio_metodo">VidrioMetodoActivity</string>
     <string name="metodo_de_reciclaje">Metodo de reciclaje</string>
     <string name="title_activity_report">Reportar foco de infeccion</string>
-    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_inicio"> </string>
 </resources>
