@@ -27,7 +27,9 @@
             android:layout_margin="@dimen/text_margin"
             android:text="@string/informacion_bateria_text"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:fontFamily="serif" />
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
         <Button
             android:text="@string/metodo_de_reciclaje"

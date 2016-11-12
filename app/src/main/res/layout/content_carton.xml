@@ -34,7 +34,8 @@
                     android:layout_weight="1"
                     android:fontFamily="serif"
                     android:text="@string/informacion_carton_text"
-                    android:textAppearance="@style/TextAppearance.AppCompat"/>
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
 
             <ImageView
                 android:layout_width="match_parent"
