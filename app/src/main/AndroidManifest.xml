@@ -53,63 +53,63 @@
         <activity
             android:name=".CartonActivity"
             android:label="@string/title_activity_carton"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".VidrioActivity"
             android:label="@string/title_activity_vidrio"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".PlasticoActivity"
             android:label="@string/title_activity_plastico"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".MetalActivity"
             android:label="@string/title_activity_metal"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".OrganicoActivity"
             android:label="@string/title_activity_organico"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".BateriaActivity"
             android:label="@string/title_activity_bateria"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
         <activity
             android:name=".BateriaMetodoActivity"
@@ -168,11 +168,11 @@
         <activity
             android:name=".ReportActivity"
             android:label="@string/title_activity_report"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".InicioActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+                android:value="com.example.ruben.appreciclaje.InicioActivity"/>
         </activity>
     </application>
 
