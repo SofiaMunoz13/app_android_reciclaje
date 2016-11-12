@@ -10,35 +10,98 @@
     tools:showIn="@layout/activity_carton_metodo">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/colorFont"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/image_papelcuriosidad1"
-            android:id="@+id/imageView" />
+            android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/image_papelcuriosidad2"
-            android:id="@+id/imageView2" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_descr_goma"
+                app:srcCompat="@mipmap/image_papelcuriosidad1"/>
+        </LinearLayout>
 
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/imagen_papelycarton_reciclaje"
-            android:id="@+id/imageView3" />
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/image_papelcuriosidad2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/imagen_papelycarton_reciclaje"/>
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/text_margin"
             android:text="@string/informacion_papel_text"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/colorFood"
+            android:layout_height="match_parent">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_papel"
+                android:id="@+id/btnImageCarton"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_vidrio"
+                android:id="@+id/btnImageVidrio"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_plastico"
+                android:id="@+id/btnImagePlastico"
+                android:layout_weight=".16"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_metal"
+                android:id="@+id/btnImageMetal"
+                android:layout_weight=".16"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_bateria"
+                android:id="@+id/btnImageBateria"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_organico"
+                android:id="@+id/btnImageOrganico"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
