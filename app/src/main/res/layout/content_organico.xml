@@ -33,7 +33,8 @@
             android:id="@+id/btnOrganicoMethod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"/>
+            android:text="@string/metodo_de_reciclaje"
+            android:background="@color/colorPrimary" />
 
         <LinearLayout
             android:orientation="horizontal"

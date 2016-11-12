@@ -21,13 +21,15 @@
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/image_vidrioproceso"
             android:id="@+id/imageView5"
-            android:layout_weight="0.09" />
+            android:layout_weight="0.03"
+            android:scaleType="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/large_text"/>
+            android:text="@string/large_text"
+            android:layout_weight="0.81" />
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"

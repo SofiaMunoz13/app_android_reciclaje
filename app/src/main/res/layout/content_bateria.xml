@@ -15,6 +15,12 @@
         android:background="@color/colorFont"
         android:layout_height="wrap_content">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/image_pilasparadas"
+            android:id="@+id/imageView38" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,7 +33,8 @@
             android:text="@string/metodo_de_reciclaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnBateriaMethod"/>
+            android:id="@+id/btnBateriaMethod"
+            android:background="@color/colorPrimary" />
 
         <LinearLayout
             android:orientation="horizontal"

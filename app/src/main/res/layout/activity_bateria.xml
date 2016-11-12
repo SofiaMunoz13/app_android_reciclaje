@@ -37,7 +37,7 @@
                 android:scaleType="fitEnd"
                 android:src="@mipmap/image_basurero_naranja"
                 app:layout_collapseMode="pin"
-                android:contentDescription="@string/img_descr_goma"/>
+                app:srcCompat="@mipmap/image_basurero_rojo" />
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"

@@ -23,6 +23,13 @@
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/font_cabecera"
+                android:id="@+id/imageView12"
+                android:scaleType="centerCrop" />
+
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
@@ -30,7 +37,21 @@
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/image_basurero_azul"
+                android:id="@+id/imageView14"
+                android:scaleType="fitEnd" />
+
         </android.support.design.widget.CollapsingToolbarLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/image_basurero_azul"
+            android:id="@+id/imageView13"
+            android:layout_weight="1" />
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_carton"/>

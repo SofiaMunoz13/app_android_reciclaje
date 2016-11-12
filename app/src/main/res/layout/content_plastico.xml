@@ -18,7 +18,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/image_basurero_amarillo"
+            app:srcCompat="@mipmap/image_plastico_basura"
             android:id="@+id/imageView8" />
 
         <TextView
@@ -29,11 +29,18 @@
             android:text="@string/informacion_plastico_text"
             android:textAppearance="@style/TextAppearance.AppCompat"/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/botellas_reciclar1"
+            android:id="@+id/imageView40" />
+
         <Button
             android:id="@+id/btnPlasticoMethod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"/>
+            android:text="@string/metodo_de_reciclaje"
+            android:background="@color/colorPrimary" />
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"

@@ -31,6 +31,24 @@
 
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
+    <string name="Vidrio_metodo_text">
+        "Material is the metaphor.\n\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+
+
+
+
+
     <string name="informacion_papel_text">
                                   "RECOJIDA DEL ENVASE \n\n"
 
@@ -288,24 +306,24 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_vidrio">VidrioActivity</string>
-    <string name="title_activity_plastico">PlasticoActivity</string>
-    <string name="title_activity_metal">MetalActivity</string>
-    <string name="title_activity_bateria">BateriaActivity</string>
+    <string name="title_activity_vidrio">Vidrio</string>
+    <string name="title_activity_plastico">Plastico</string>
+    <string name="title_activity_metal">Metal</string>
+    <string name="title_activity_bateria">Bateria</string>
     <string name="title_activity_maps_papel">Map</string>
-    <string name="title_activity_organico">OrganicoActivity</string>
+    <string name="title_activity_organico">Organico</string>
     <string name="title_activity_plastico_maps">Map</string>
     <string name="title_activity_carton_maps">Map</string>
     <string name="title_activity_organico_maps">Map</string>
     <string name="title_activity_vidrio_maps">Map</string>
     <string name="title_activity_bateria_maps">Map</string>
     <string name="title_activity_metal_maps">Map</string>
-    <string name="title_activity_bateria_metodo">BateriaMetodoActivity</string>
+    <string name="title_activity_bateria_metodo">BateriaMetodo</string>
     <string name="title_activity_carton_metodo">Metodo de reciclaje de papel</string>
-    <string name="title_activity_metal_metodo">MetalMetodoActivity</string>
-    <string name="title_activity_organico_metodo">OrganicoMetodoActivity</string>
-    <string name="title_activity_plastico_metodo">PlasticoMetodoActivity</string>
-    <string name="title_activity_vidrio_metodo">VidrioMetodoActivity</string>
+    <string name="title_activity_metal_metodo">MetalMetodo</string>
+    <string name="title_activity_organico_metodo">OrganicoMetodo</string>
+    <string name="title_activity_plastico_metodo">PlasticoMetodo</string>
+    <string name="title_activity_vidrio_metodo">VidrioMetodo</string>
     <string name="metodo_de_reciclaje">Metodo de reciclaje</string>
     <string name="title_activity_report">Reportar foco de infeccion</string>
 </resources>

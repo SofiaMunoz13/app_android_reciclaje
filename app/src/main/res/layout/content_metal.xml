@@ -17,8 +17,8 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/image_basurero_amarillo"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/image_metal_lataabollada"
             android:id="@+id/imageView10" />
 
         <TextView
@@ -33,7 +33,8 @@
             android:id="@+id/btnMetalMethod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"/>
+            android:text="@string/metodo_de_reciclaje"
+            android:background="@color/colorPrimary" />
 
         <LinearLayout
             android:orientation="horizontal"

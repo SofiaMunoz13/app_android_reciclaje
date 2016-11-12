@@ -18,6 +18,12 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/image_plastico_clasificacion"
+            android:id="@+id/imageView34" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:srcCompat="@mipmap/imagen_plastico_reciclaje"
             android:id="@+id/imageView4" />
 

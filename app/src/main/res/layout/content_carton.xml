@@ -20,7 +20,14 @@
             android:background="@color/colorFont"
             android:orientation="vertical">
 
-                <TextView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/papel_periodico"
+                android:id="@+id/imageView35"
+                android:layout_weight="1" />
+
+            <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -29,49 +36,27 @@
                     android:text="@string/informacion_carton_text"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/papelesdecurricula"
+                android:id="@+id/imageView36"
+                android:layout_weight="1" />
+
             <LinearLayout
                 android:id="@+id/sider2"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
                 android:orientation="horizontal">
 
-                <LinearLayout
-                    android:id="@+id/MasInformacion"
-                    android:layout_width="190dp"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/MasInfo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/img_descr_pila"
-                        android:scaleType="fitCenter"
-                        app:srcCompat="@mipmap/ic_launcher"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/Estadistica"
-                    android:layout_width="190dp"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/mEstadist"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/ic_plusone_standard_off_client"/>
-                </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/btnCartonMethod"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/metodo_de_reciclaje"/>
+                android:text="@string/metodo_de_reciclaje"
+                android:background="@color/colorPrimary" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
