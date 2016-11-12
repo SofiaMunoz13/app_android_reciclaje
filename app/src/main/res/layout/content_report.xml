@@ -9,10 +9,150 @@
     tools:context="com.example.ruben.appreciclaje.ReportActivity"
     tools:showIn="@layout/activity_report">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text"/>
+        android:orientation="vertical"
+        android:background="@color/colorFont">
+
+        <TextView
+            android:text="tipo de basura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textStyle="normal|bold"
+            android:textSize="36sp"
+            android:textAllCaps="true" />
+
+        <CheckBox
+            android:text="vidrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vidrio_check"
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:buttonTint="@color/colorPrimaryDark" />
+
+        <CheckBox
+            android:text="organico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/organico_check"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:buttonTint="@android:color/holo_orange_dark" />
+
+        <CheckBox
+            android:text="plastico/metal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plastico_metal_check"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:buttonTint="@color/colorAmarillo" />
+
+        <CheckBox
+            android:text="papel /carton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/papel_check"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:buttonTint="@android:color/holo_blue_dark" />
+
+        <CheckBox
+            android:text="pilas y baterias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pila_check"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:buttonTint="@android:color/holo_red_dark" />
+
+        <CheckBox
+            android:text="Material no reciclable y otros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basura_check"
+            android:textSize="30sp"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAllCaps="true"
+            android:text="descripcion"
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:lines="6"
+            android:id="@+id/editText"
+             />
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denunciar"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/colorFood"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_papel"
+                android:id="@+id/btnImageCarton"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_vidrio"
+                android:id="@+id/btnImageVidrio"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_plastico"
+                android:id="@+id/btnImagePlastico"
+                android:layout_weight=".16"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_metal"
+                android:id="@+id/btnImageMetal"
+                android:layout_weight=".16"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_bateria"
+                android:id="@+id/btnImageBateria"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_foot"
+                app:srcCompat="@mipmap/foot_organico"
+                android:id="@+id/btnImageOrganico"
+                android:layout_weight=".17"
+                android:contentDescription="@string/mr_button_content_description"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
