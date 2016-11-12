@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="90dp"
-        app:srcCompat="@mipmap/button_gps_image"
+        app:srcCompat="@mipmap/ic_marcador_metodo"
         android:id="@+id/btnPlasticoMethod" />
     <LinearLayout
         android:orientation="horizontal"
