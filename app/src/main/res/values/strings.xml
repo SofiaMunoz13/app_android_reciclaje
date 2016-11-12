@@ -125,7 +125,6 @@
         "material de papel y cartón.\n\n"
 
     </string>
-
     <string name="informacion_carton_text">
         "El papel y cartón son una de las formas más beneficiosas de reciclaje para el medio "
         "ambiente, es importante recalcar que el papel está compuesto de fibras orgánicas las "
@@ -155,7 +154,6 @@
         "Seis cajas de leche en cartón de PIL hacen una caja de zapatos.\n\n"
 
     </string>
-
     <string name="informacion_metal_text">
         "Entre los metales reciclables los más rentables para la industria son el aluminio, cobre "
         "perfiles de construcción.\n"
@@ -179,7 +177,6 @@
 
 
     </string>
-
     <string name="informacion_bateria_text">
          "Pilas y Baterías\n"
          "El reciclaje de las Pilas y Baterías, es de vital importancia para el medio ambiente, "
@@ -226,8 +223,6 @@
          "proceso de descomposición más rápido. \n\n"
 
     </string>
-
-
     <string name="informacion_plastico_text">
          "El plástico es una gran amenaza para el medio ambiente por dos motivos principales, su "
          "masiva utilización en todo tipo de productos y su lenta degradación.\n"
@@ -275,7 +270,6 @@
         "nuevo vidrio.\n\n"
 
     </string>
-
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
