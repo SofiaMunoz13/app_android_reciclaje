@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.ruben.appreciclaje.ReportActivity">
+    tools:context="com.example.ruben.appreciclaje.InicioActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/size_cabecera_report"
+        android:layout_height="@dimen/size_ini"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
@@ -23,6 +23,15 @@
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/font_inicio"
+                android:id="@+id/imageView11"
+                app:layout_collapseMode="parallax"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/img_descr_goma"/>
+
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
@@ -33,7 +42,7 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_report"/>
+    <include layout="@layout/content_inicio"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
