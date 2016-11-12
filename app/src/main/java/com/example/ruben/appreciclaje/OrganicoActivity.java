@@ -18,7 +18,7 @@ public class OrganicoActivity extends AppCompatActivity implements View.OnClickL
         setContent();
     }
     private void setContent() {
-        Button btn=(Button)findViewById(R.id.btnOrganicoMethod);
+        FloatingActionButton btn=(FloatingActionButton) findViewById(R.id.btnOrganicoMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);

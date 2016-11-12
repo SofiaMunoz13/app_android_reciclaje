@@ -18,7 +18,7 @@ public class VidrioActivity extends AppCompatActivity implements View.OnClickLis
         setContent();
     }
     private void setContent() {
-        Button btn = (Button) findViewById(R.id.btnVidrioMethod);
+        FloatingActionButton btn = (FloatingActionButton) findViewById(R.id.btnVidrioMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);

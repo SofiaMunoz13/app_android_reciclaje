@@ -30,13 +30,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/btnOrganicoMethod"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/metodo_de_reciclaje"
-            android:background="@color/colorPrimary" />
-
 
     </LinearLayout>
 

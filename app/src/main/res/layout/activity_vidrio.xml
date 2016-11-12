@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -24,28 +23,30 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
+                android:id="@+id/imageView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@mipmap/font_cabecera"
-                android:id="@+id/imageView20"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/font_cabecera" />
 
             <ImageView
+                android:id="@+id/imageView21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@mipmap/image_basurero_verde"
-                android:id="@+id/imageView21"
-                android:scaleType="fitEnd" />
+                android:scaleType="fitEnd"
+                app:srcCompat="@mipmap/image_basurero_verde" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
-    <include layout="@layout/content_vidrio"/>
+
+    <include layout="@layout/content_vidrio" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="90dp"
@@ -53,56 +54,70 @@
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@mipmap/button_gps_image"/>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:background="@color/colorFood"
+        app:srcCompat="@mipmap/button_gps_image" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnVidrioMethod"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@mipmap/button_gps_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorFood"
         android:isScrollContainer="false"
-        android:layout_gravity="bottom">
+        android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_papel"
             android:id="@+id/btnImageCarton"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_vidrio"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_papel" />
+
+        <ImageView
             android:id="@+id/btnImageVidrio"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_plastico"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_vidrio" />
+
+        <ImageView
             android:id="@+id/btnImagePlastico"
-            android:layout_weight=".16"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_metal"
+            android:layout_weight=".16"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_plastico" />
+
+        <ImageView
             android:id="@+id/btnImageMetal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
             android:layout_weight=".16"
-            android:contentDescription="@string/mr_button_content_description"/>
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_metal" />
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_bateria"
             android:id="@+id/btnImageBateria"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_organico"
-            android:id="@+id/btnImageOrganico"
             android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_bateria" />
+
+        <ImageView
+            android:id="@+id/btnImageOrganico"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_organico" />
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

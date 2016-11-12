@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class InicioActivity extends AppCompatActivity implements View.OnClickListener {
+    private final int DURATION=3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

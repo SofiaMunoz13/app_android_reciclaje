@@ -18,7 +18,7 @@ public class MetalActivity extends AppCompatActivity implements View.OnClickList
         setContent();
     }
     private void setContent() {
-        Button btn=(Button)findViewById(R.id.btnMetalMethod);
+        FloatingActionButton btn=(FloatingActionButton)findViewById(R.id.btnMetalMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);

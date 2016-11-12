@@ -18,7 +18,7 @@ public class CartonActivity extends AppCompatActivity implements View.OnClickLis
         setContent();
     }
     private void setContent() {
-        Button btn=(Button)findViewById(R.id.btnCartonMethod);
+        FloatingActionButton btn=(FloatingActionButton) findViewById(R.id.btnCartonMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);

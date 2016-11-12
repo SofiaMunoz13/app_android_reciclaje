@@ -36,12 +36,5 @@
             app:srcCompat="@mipmap/botellas_reciclar1"
             android:id="@+id/imageView40" />
 
-        <Button
-            android:id="@+id/btnPlasticoMethod"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/metodo_de_reciclaje"
-            android:background="@color/colorPrimary" />
-
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

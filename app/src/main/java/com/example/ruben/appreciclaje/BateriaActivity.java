@@ -18,7 +18,7 @@ public class BateriaActivity extends AppCompatActivity implements View.OnClickLi
         setContent();
     }
     private void setContent() {
-        Button btn = (Button) findViewById(R.id.btnBateriaMethod);
+        FloatingActionButton btn = (FloatingActionButton) findViewById(R.id.btnBateriaMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);

@@ -18,7 +18,7 @@ public class PlasticoActivity extends AppCompatActivity implements View.OnClickL
         setContent();
     }
     private void setContent() {
-        Button btn=(Button)findViewById(R.id.btnPlasticoMethod);
+        FloatingActionButton btn=(FloatingActionButton) findViewById(R.id.btnPlasticoMethod);
         btn.setOnClickListener(this);
         ImageView carton = (ImageView) findViewById(R.id.btnImageCarton);
         ImageView bateria = (ImageView) findViewById(R.id.btnImageBateria);
