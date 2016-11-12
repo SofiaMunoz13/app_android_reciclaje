@@ -9,150 +9,171 @@
     tools:context="com.example.ruben.appreciclaje.ReportActivity"
     tools:showIn="@layout/activity_report">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/colorFont">
-
-        <TextView
-            android:text="tipo de basura"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:textStyle="normal|bold"
-            android:textSize="36sp"
-            android:textAllCaps="true" />
-
-        <CheckBox
-            android:text="vidrio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/vidrio_check"
-            android:fontFamily="sans-serif"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            app:buttonTint="@color/colorPrimaryDark" />
-
-        <CheckBox
-            android:text="organico"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/organico_check"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            app:buttonTint="@android:color/holo_orange_dark" />
-
-        <CheckBox
-            android:text="plastico/metal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/plastico_metal_check"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            app:buttonTint="@color/colorAmarillo" />
-
-        <CheckBox
-            android:text="papel /carton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/papel_check"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            app:buttonTint="@android:color/holo_blue_dark" />
-
-        <CheckBox
-            android:text="pilas y baterias"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/pila_check"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            app:buttonTint="@android:color/holo_red_dark" />
-
-        <CheckBox
-            android:text="Material no reciclable y otros"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/basura_check"
-            android:textSize="30sp"
-            android:textAllCaps="true" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView3"
-            android:textAllCaps="true"
-            android:text="descripcion"
-            android:textSize="18sp" />
-
-
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textMultiLine"
-            android:ems="10"
-            android:lines="6"
-            android:id="@+id/editText"
-             />
-
-        <Button
-            android:id="@+id/btnReport"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Denunciar"
-            android:background="@color/colorPrimary" />
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:background="@color/colorFood"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_papel"
-                android:id="@+id/btnImageCarton"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_vidrio"
-                android:id="@+id/btnImageVidrio"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_plastico"
-                android:id="@+id/btnImagePlastico"
-                android:layout_weight=".16"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_metal"
-                android:id="@+id/btnImageMetal"
-                android:layout_weight=".16"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_bateria"
-                android:id="@+id/btnImageBateria"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_organico"
-                android:id="@+id/btnImageOrganico"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
+            <ProgressBar
+                android:id="@+id/about_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFont"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tipo de basura"
+                    android:textAllCaps="true"
+                    android:textSize="36sp"
+                    android:textStyle="normal|bold"/>
+
+                <CheckBox
+                    android:id="@+id/vidrio_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="vidrio"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <CheckBox
+                    android:id="@+id/organico_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="organico"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"
+                    android:buttonTint="@android:color/holo_orange_dark"/>
+
+                <CheckBox
+                    android:id="@+id/plastico_metal_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="plastico/metal"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"
+                    android:buttonTint="@color/colorAmarillo"/>
+
+                <CheckBox
+                    android:id="@+id/papel_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="papel /carton"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"
+                    android:buttonTint="@android:color/holo_blue_dark"/>
+
+                <CheckBox
+                    android:id="@+id/pila_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="pilas y baterias"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"
+                    android:buttonTint="@android:color/holo_red_dark"/>
+
+                <CheckBox
+                    android:id="@+id/basura_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Material no reciclable y otros"
+                    android:textAllCaps="true"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="descripcion"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:lines="6"/>
+
+                <Button
+                    android:id="@+id/btnReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="Denunciar"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorFood"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btnImageCarton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".17"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_papel"/>
+
+                    <ImageView
+                        android:id="@+id/btnImageVidrio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".17"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_vidrio"/>
+
+                    <ImageView
+                        android:id="@+id/btnImagePlastico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".16"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_plastico"/>
+
+                    <ImageView
+                        android:id="@+id/btnImageMetal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".16"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_metal"/>
+
+                    <ImageView
+                        android:id="@+id/btnImageBateria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".17"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_bateria"/>
+
+                    <ImageView
+                        android:id="@+id/btnImageOrganico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/size_foot"
+                        android:layout_weight=".17"
+                        android:contentDescription="@string/mr_button_content_description"
+                        app:srcCompat="@mipmap/foot_organico"/>
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </android.support.v4.widget.NestedScrollView>
