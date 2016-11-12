@@ -33,19 +33,78 @@
     </string>
 
     <string name="Vidrio_metodo_text">
-        "Material is the metaphor.\n\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+            "Vidrio\n\n"
 
-        "Bold, graphic, intentional.\n\n"
+            "Material de alta calidad para su re-uso , no pierde propiedades.\n"
+            "Precio :   1.2  Bs/kilogramo\n"
+            "Contenedor : color Verde.\n"
+            "Empresa : Panaflex vidrios de seguridad\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: No disponible\n"
+            "Correo: No Disponible.\n"
 
-
-        "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="Carton_metodo_text">
+        "Papel y Cartón\n\n"
 
+        "Ambos materiales son reciclados y son bien aprovechados para un nuevo ciclo de vida.\n"
+        "Precio :   1.5  Bs/kilogramo\n"
+        "Contenedor : color Azul.\n"
+        "Empresa : La Papelera S.A. y Papelera Vinto.\n"
+        "Teléfono: 4 4268741      4 4356168\n"
+        "Ubicación: Km 7 y 1/, Av Capitán Víctor Ustáriz       Quillacollo-VintoChico\n"
+        "Correo: No Disponible.\n"
 
+    </string>
+    <string name="Plastico_metodo_text">
+            "Plástico \n\n"
+            "Material no biodegradable \n"
+            "Precio :   0.90  Bs/kilogramo\n"
+            "Contenedor : color Amarillo.\n"
+            "Empresa : Plasbol, Plasbol, Recuplast , Reciclame Aristech , Bolsas Plásticas Dadi\n"
+            ", Bopeplast, Ecoplastic, Induppont, Matrical, Plásticos Derqui y Plaxburg.\n"
+            "Telefono: No Disponible\n"
+            "Ubicacion: No Disponible\n"
+            "Correo: No Disponible.\n\n"
 
+    </string>
+    <string name="Organico_metodo_text">
+
+            "Orgánico\n\n"
+
+            "fácil absorción y descomposición como abono vegetal\n"
+            "Precio :   -----------  Bs/kilogramo\n"
+            "Contenedor : color Naranja.\n"
+            "Empresa : ---------------------\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: No disponible\n"
+            "Correo: No Disponible.\n"
+
+    </string>
+    <string name="Pilasybaterias_metodo_text">
+            "Baterías y Pilas"
+            "Alta toxicidad para el suelo y agua."
+            "No se tiene una manera de adecuada de descomposición o aprovechamiento "
+            "después de su pérdida de vida, al igual que los neumáticos de los automóviles. "
+            "Se escuchan soluciones para su adecuado reciclaje"
+            "contenedor : color Rojo  por el peligro que representa."
+
+    </string>
+    <string name="Metal_metodo_text">
+
+            "Metal\n\n"
+
+            "Material no biodegradable \n"
+            "Precio :  cobre  0.90  Bs/kilogramo\n"
+            "Precio: aluminio 1.50 Bs/kilogramo\n"
+            "Precio: fierro    0.80 Bs/kilogramo\n"
+            "Contenedor : color Amarillo.\n"
+            "Empresa :Fundidora Vinto Oruro\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: Oruro\n"
+            "Correo: No Disponible.\n"
+
+    </string>
 
 
 
