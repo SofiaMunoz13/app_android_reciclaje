@@ -3,7 +3,6 @@ package com.example.ruben.appreciclaje;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -34,9 +33,11 @@ public class CartonActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.fab:
                 intent=new Intent(CartonActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnCartonMethod:
                 intent=new Intent(CartonActivity.this,CartonMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }

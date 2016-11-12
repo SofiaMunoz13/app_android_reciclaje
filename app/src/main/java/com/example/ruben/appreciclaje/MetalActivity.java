@@ -3,7 +3,6 @@ package com.example.ruben.appreciclaje;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -34,9 +33,11 @@ public class MetalActivity extends AppCompatActivity implements View.OnClickList
             case R.id.fab:
                 intent=new Intent(MetalActivity.this,MapsActivity.class);
                 startActivity(intent);
+                break;
             case R.id.btnMetalMethod:
                 intent=new Intent(MetalActivity.this,MetalMetodoActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }
