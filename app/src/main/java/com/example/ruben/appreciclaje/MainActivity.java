@@ -14,7 +14,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setImageAction();
+
     }
+
     private void setImageAction() {
         ImageView imgVidrio = (ImageView) findViewById(R.id.imageVidrio);
         imgVidrio.setOnClickListener(this);

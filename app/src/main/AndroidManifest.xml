@@ -165,6 +165,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ruben.appreciclaje.VidrioActivity"/>
         </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ruben.appreciclaje.MainActivity"/>
+        </activity>
     </application>
 
 </manifest>
