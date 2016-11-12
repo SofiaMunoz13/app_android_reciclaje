@@ -57,4 +57,55 @@
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@mipmap/button_gps_image"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorFood"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_papel"
+            android:id="@+id/btnImageCarton"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_vidrio"
+            android:id="@+id/btnImageVidrio"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_plastico"
+            android:id="@+id/btnImagePlastico"
+            android:layout_weight=".16"
+            android:contentDescription="@string/mr_button_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_metal"
+            android:id="@+id/btnImageMetal"
+            android:layout_weight=".16"
+            android:contentDescription="@string/mr_button_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_bateria"
+            android:id="@+id/btnImageBateria"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            app:srcCompat="@mipmap/foot_organico"
+            android:id="@+id/btnImageOrganico"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"/>
+    </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

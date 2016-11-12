@@ -37,55 +37,7 @@
             android:text="@string/metodo_de_reciclaje"
             android:background="@color/colorPrimary" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:background="@color/colorFood"
-            android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_papel"
-                android:id="@+id/btnImageCarton"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_vidrio"
-                android:id="@+id/btnImageVidrio"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_plastico"
-                android:id="@+id/btnImagePlastico"
-                android:layout_weight=".16"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_metal"
-                android:id="@+id/btnImageMetal"
-                android:layout_weight=".16"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_bateria"
-                android:id="@+id/btnImageBateria"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/size_foot"
-                app:srcCompat="@mipmap/foot_organico"
-                android:id="@+id/btnImageOrganico"
-                android:layout_weight=".17"
-                android:contentDescription="@string/mr_button_content_description"/>
-        </LinearLayout>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
