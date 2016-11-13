@@ -43,6 +43,22 @@
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@mipmap/ic_reporte"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@mipmap/image_reporte"
+        android:id="@+id/btnReport" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="150dp"
+        app:srcCompat="@mipmap/ic_camera"
+        android:id="@+id/btnCamera" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"

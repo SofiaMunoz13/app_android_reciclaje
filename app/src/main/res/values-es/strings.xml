@@ -12,4 +12,365 @@
     <string name="img_descr_vidrio">Imagen Vidrio para reciclar</string>
     <string name="img_descr_pila">Imagen pila para recicalr</string>
     <string name="img_descr_goma">Imagen para reutilizar la goma</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="img_descr_plastico">Imagen Plastico para reciclar</string>
+    <string name="img_descr_metal">Imagen metal para reciclar</string>
+    <string name="title_activity_carton">Papel</string>
+    <string name="Papel_text">
+        "Material is the metaphor.\n\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="Vidrio_metodo_text">
+            "Vidrio\n\n"
+
+            "Material de alta calidad para su re-uso , no pierde propiedades.\n"
+            "Precio :   1.2  Bs/kilogramo\n"
+            "Contenedor : color Verde.\n"
+            "Empresa : Panaflex vidrios de seguridad\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: No disponible\n"
+            "Correo: No Disponible.\n"
+
+    </string>
+    <string name="Carton_metodo_text">
+        "Papel y Cartón\n\n"
+
+        "Ambos materiales son reciclados y son bien aprovechados para un nuevo ciclo de vida.\n"
+        "Precio :   1.5  Bs/kilogramo\n"
+        "Contenedor : color Azul.\n"
+        "Empresa : La Papelera S.A. y Papelera Vinto.\n"
+        "Teléfono: 4 4268741      4 4356168\n"
+        "Ubicación: Km 7 y 1/, Av Capitán Víctor Ustáriz       Quillacollo-VintoChico\n"
+        "Correo: No Disponible.\n"
+
+    </string>
+    <string name="Plastico_metodo_text">
+            "Plástico \n\n"
+            "Material no biodegradable \n"
+            "Precio :   0.90  Bs/kilogramo\n"
+            "Contenedor : color Amarillo.\n"
+            "Empresa : Plasbol, Plasbol, Recuplast , Reciclame Aristech , Bolsas Plásticas Dadi\n"
+            ", Bopeplast, Ecoplastic, Induppont, Matrical, Plásticos Derqui y Plaxburg.\n"
+            "Telefono: No Disponible\n"
+            "Ubicacion: No Disponible\n"
+            "Correo: No Disponible.\n\n"
+
+    </string>
+    <string name="Organico_metodo_text">
+
+            "Orgánico\n\n"
+
+            "fácil absorción y descomposición como abono vegetal\n"
+            "Precio :   -----------  Bs/kilogramo\n"
+            "Contenedor : color Naranja.\n"
+            "Empresa : ---------------------\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: No disponible\n"
+            "Correo: No Disponible.\n"
+
+    </string>
+    <string name="Pilasybaterias_metodo_text">
+            "Baterías y Pilas"
+            "Alta toxicidad para el suelo y agua."
+            "No se tiene una manera de adecuada de descomposición o aprovechamiento "
+            "después de su pérdida de vida, al igual que los neumáticos de los automóviles. "
+            "Se escuchan soluciones para su adecuado reciclaje"
+            "contenedor : color Rojo  por el peligro que representa."
+
+    </string>
+    <string name="Metal_metodo_text">
+
+            "Metal\n\n"
+
+            "Material no biodegradable \n"
+            "Precio :  cobre  0.90  Bs/kilogramo\n"
+            "Precio: aluminio 1.50 Bs/kilogramo\n"
+            "Precio: fierro    0.80 Bs/kilogramo\n"
+            "Contenedor : color Amarillo.\n"
+            "Empresa :Fundidora Vinto Oruro\n"
+            "Teléfono: No Disponible\n"
+            "Ubicación: Oruro\n"
+            "Correo: No Disponible.\n"
+
+    </string>
+    <string name="informacion_papel_text">
+                                  "RECOJIDA DEL ENVASE \n\n"
+
+        "Una vez que los productos han sido consumidos, el envase deja de cumplir la función para "
+        "el que fue creado y se convierte en residuo.Es en ese instante cuando hay que recuperarlo "
+        "para que pueda ser reciclado y contribuir así con el cuidado del medio ambiente.\n"
+
+                "Los envases de papel y cartón van al contenedor azul.\n\n"
+
+        "RECUPERACION DEL ENVASE \n\n"
+
+        "Una vez que los hemos depositado en el contenedor adecuado, los envases de papel y cartón"
+        "van directamente a los recuperadores y recicladores.En ellos, tras una clasificación en "
+        "función de las calidades, pasan a ser reciclados para posteriormente convertirse en nuevo"
+        "material de papel y cartón.\n\n"
+
+    </string>
+    <string name="informacion_carton_text">
+        "El papel y cartón son una de las formas más beneficiosas de reciclaje para el medio "
+        "ambiente, es importante recalcar que el papel está compuesto de fibras orgánicas las "
+        "cuales se pueden volver a aprovechar para un nuevo papel.\n"
+        "El proceso de reciclaje  es clasificar el papel de la siguiente manera:\n\n"
+
+        "-Separar el papel blanco o papel de escritorio de los de color.\n"
+        "-Retirar los objetos de metal o plástico que tienen añadidos.\n"
+        "-Recuerda que para reciclar papel, deberás depositarlo en el contenedor de color azul. No "
+        "lo olvides.\n\n"
+
+        "El proceso de reciclaje, pasa por varias fases.\n\n"
+
+        "-	La selección o clasificación\n"
+        "-	Molienda donde el papel es triturado.\n"
+        "-	Plastificación que consiste en añadir disolventes químicos para que las fibras del "
+        "papel se separen.\n"
+        "-	Reciclado del papel consiste en una criba de todo material que no es papel “sacar las "
+        "impurezas del papel”.\n"
+        "-	Centrifugación para  que el material sea separado por su densidad y las partículas "
+        "de tinta sean eliminadas por las burbujas de aire.\n"
+        "-	Pasta de papel es la materia esperada al cual se blanquea con peróxido de hidrogeno o "
+        "hidrosulfito de sodio.\n\n"
+
+        "Dato curioso:\n\n"
+
+        "Seis cajas de leche en cartón de PIL hacen una caja de zapatos.\n\n"
+
+    </string>
+    <string name="informacion_metal_text">
+        "Entre los metales reciclables los más rentables para la industria son el aluminio, cobre "
+        "perfiles de construcción.\n"
+        "Se tiene que considerar que los metales oxidan la tierra generando desgaste en la misma.\n"
+        "-Resguarda los metales de la humedad.\n"
+        "-Clasifica los materiales como aluminio, cobre y hierro.\n"
+        "-Este material va en el contenedor de color Amarillo.\n\n"
+
+        "El proceso de reciclaje\n\n"
+
+        "Entre los metales el más beneficioso es el Aluminio.\n\n"
+
+        "-Comienza con la recolección.\n"
+        "-Traslado a la planta.\n"
+        "-Separación y limpia.\n"
+        "-Aplastamiento en grandes bloques.\n"
+        "-Fundición.\n"
+        "-Creado de láminas de aluminio para su nuevo uso.\n"
+        "-Para el hierro y cobre se lleva el mismo proceso solo varían las temperaturas de "
+        "fundición.\n\n"
+
+
+    </string>
+    <string name="informacion_bateria_text">
+         "Pilas y Baterías\n"
+         "El reciclaje de las Pilas y Baterías, es de vital importancia para el medio ambiente, "
+         "al tratarse de productos altamente tóxicos.\n\n"
+
+         "Las Pilas y Baterías pasan sus residuos tóxicos en especial al suelo y al agua.\n"
+         "Con este elemento no sabemos qué hacer por lo cual debemos depositarlos en contenedores "
+         "de color Rojo o Aislarlos del suelo.\n\n"
+
+         "Recomendación \n\n"
+
+         "-Trate de ponerlos muy separados de otros materiales. \n"
+         "-Utilice un contenedor de plástico, trate de mantenerlo tapado y aislado del medio "
+         " ambiente. \n\n"
+
+         "Dato Curioso: \n\n"
+
+         "Una pila en el suelo emite emisiones de mercurio el cual por ser un metal pesado baja "
+         "hasta las aguas subterráneas contaminando el ecosistema.\n\n"
+    </string>
+    <string name="informacion_organico_text">
+         "Es aquella materia que proviene de desechos naturales como son los alimentos, hojas, "
+         "seres vivos o excrementos. \n"
+
+         "Estos restos tienen un proceso natural de descomposición, por lo que rápidamente "
+         "desaparecen para formar parte del nuevo ciclo de la vida. \n\n"
+
+
+         "Métodos para acelerar el reciclaje Orgánico. \n\n"
+
+         "Entre estos tenemos dos: \n"
+
+         "Compostaje y Vermicompostaje \n\n"
+
+
+         "El reciclaje orgánico se está empleando últimamente en la elaboración de "
+         "biocombustibles, obtenido de semillas y fruta seca, creando alternativas sostenibles "
+         "y baratas a los combustibles de origen fósil. \n"
+
+         "En el reciclaje orgánico o basura orgánica a nivel doméstico, podemos utilizar el "
+         "reciclaje orgánico como abono si tenemos plantas, un pequeño jardín con huerta o un "
+         "huerto urbano. La forma idónea para no tener malos olores por la descomposición de esta "
+         "basura orgánica, es enterrar en tierra los restos de frutas y verduras, que tienen un "
+         "proceso de descomposición más rápido. \n\n"
+
+    </string>
+    <string name="informacion_plastico_text">
+         "El plástico es una gran amenaza para el medio ambiente por dos motivos principales, su "
+         "masiva utilización en todo tipo de productos y su lenta degradación.\n"
+         "Los plásticos más comunes que se reciclan, son PVC y PET, siendo el primero mucho más "
+         "contaminante para el medio ambiente.\n"
+         "- En nuestro entorno las botellas de gaseosas no retornables son las más comunes para su "
+         "reciclado.\n"
+         "- Aplasta el envase para reducir el volumen.\n"
+         "- Asegúrate que estén con sus tapas.\n"
+         "- Muy importante los plásticos van en el contenedor de color Amarillo.\n\n"
+
+         "El proceso de reciclaje del Plástico:\n\n"
+
+         "-	Recogida.\n"
+         "-	Rigurosa selección.\n"
+         "-	Limpia con químicos.\n"
+         "-	Moldeamiento de otro envase.\n\n"
+
+         "Dato curioso:\n\n"
+
+         "Las bolsas plásticas tardan 180 Años en degradarse, una herencia que nuestros nietos "
+         "no quisieran tener.\n\n"
+
+    </string>
+    <string name="informacion_vidrio_text">
+        "El vidrio es uno de los materiales más importantes, puede ser recuperado casi en su "
+        "totalidad.\n"
+        "La forma ideal para reciclar vidrio, consiste en almacenarlos en nuestros hogares, todo "
+        "tipos de tarros, botellas o envases de vidrio.\n"
+        "-Separa los vidrios de color cristalino de los vidrios de color.\n"
+        "-Retira las etiquetas de los envases, estos son de papel generalmente.\n"
+        "-Recuerda que para reciclar el vidrio, deberá depositarlo en el contenedor de color"
+        " Verde.\n\n"
+
+        "El proceso de reciclaje de vidrio es circular.\n\n"
+
+        "-	La recogida para su posterior tratamiento en una planta de reciclaje.\n"
+        "-	La molienda.\n"
+        "-	Fundición.\n\n"
+
+        "Dato curioso:\n\n"
+
+        "Con el proceso de reciclaje de vidrio, se ahorra un 30% de energía respecto a obtenerlo "
+        "por primera vez. En pocas palabras sale más económico reusar el vidrio a crear "
+        "nuevo vidrio.\n\n"
+
+    </string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_vidrio">Vidrio</string>
+    <string name="title_activity_plastico">Plastico</string>
+    <string name="title_activity_metal">Metal</string>
+    <string name="title_activity_bateria">Bateria</string>
+    <string name="title_activity_maps_papel">Map</string>
+    <string name="title_activity_organico">Organicos</string>
+    <string name="title_activity_plastico_maps">Map</string>
+    <string name="title_activity_carton_maps">Map</string>
+    <string name="title_activity_organico_maps">Map</string>
+    <string name="title_activity_vidrio_maps">Map</string>
+    <string name="title_activity_bateria_maps">Map</string>
+    <string name="title_activity_metal_maps">Map</string>
+    <string name="title_activity_bateria_metodo">BateriaMetodo</string>
+    <string name="title_activity_carton_metodo">Metodo de reciclaje de papel</string>
+    <string name="title_activity_metal_metodo">MetalMetodo</string>
+    <string name="title_activity_organico_metodo">OrganicoMetodo</string>
+    <string name="title_activity_plastico_metodo">PlasticoMetodo</string>
+    <string name="title_activity_vidrio_metodo">VidrioMetodo</string>
+    <string name="metodo_de_reciclaje">Metodo de reciclaje</string>
+    <string name="title_activity_report">Reportar foco de infeccion</string>
+    <string name="title_activity_inicio"> </string>
 </resources>

@@ -22,10 +22,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
-    private Marker marcador;
-    double lat = 0.0;
-    double lng = 0.0;
-
+    double lat = -17.371097;
+    double lng = -66.136642;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,88 +33,73 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);
         Toast.makeText(MapsActivity.this, "Buscando ubicacion", Toast.LENGTH_LONG).show();
     }
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         miUbicacion();
     }
-
     private void agregarMarcador(double lat, double lng) {
         LatLng coordenadas = new LatLng(lat, lng);
+        LatLng coordenadas1 = new LatLng(- 17.372654, - 66.136376);
+        LatLng coordenadas2 = new LatLng(- 17.371364, - 66.140088);
+        LatLng coordenadas3 = new LatLng(- 17.373872, - 66.138962);
+        LatLng coordenadas4 = new LatLng(- 17.373330, - 66.130035);
+        LatLng coordenadas5 = new LatLng(- 17.367462, - 66.138672);
+        LatLng coordenadas6 = new LatLng(- 17.370401, - 66.141740);
+        LatLng coordenadas7 = new LatLng(- 17.365220, - 66.138768);
+        LatLng coordenadas8 = new LatLng(- 17.367094, - 66.148660);
+        LatLng coordenadas9 = new LatLng(- 17.371333, - 66.149390);
+        LatLng coordenadas10 = new LatLng(- 17.366408, - 66.130218);
+        LatLng coordenadas11 = new LatLng(- 17.362947, - 66.140968);
+        LatLng coordenadas12 = new LatLng(- 17.376209, - 66.135607);
+        LatLng coordenadas13 = new LatLng(- 17.373239, - 66.130757);
+        LatLng coordenadas14 = new LatLng(- 17.365539, - 66.132056);
 
-        LatLng coordenadas1 = new LatLng(-17.372654, -66.136376);
-        LatLng coordenadas2 = new LatLng(-17.371364, -66.140088);
-        LatLng coordenadas3 = new LatLng(-17.373872, -66.138962);
-        LatLng coordenadas4 = new LatLng(-17.373330, -66.130035);
-        LatLng coordenadas5 = new LatLng(-17.367462, -66.138672);
-        LatLng coordenadas6 = new LatLng(-17.370401, -66.141740);
-        LatLng coordenadas7 = new LatLng(-17.365220, -66.138768);
-        LatLng coordenadas8 = new LatLng(-17.367094, -66.148660);
-        LatLng coordenadas9 = new LatLng(-17.371333, -66.149390);
-        LatLng coordenadas10 = new LatLng(-17.366408, -66.130218);
-
-        LatLng coordenadas11 = new LatLng(-17.362947, -66.140968);
-        LatLng coordenadas12 = new LatLng(-17.376209, -66.135607);
-        LatLng coordenadas13 = new LatLng(-17.373239, -66.130757);
-        LatLng coordenadas14 = new LatLng(-17.365539, -66.132056);
-         mMap.addMarker(new MarkerOptions().position(coordenadas1).title("Papelera Vinto").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas2).title("Panaflex").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas3).title("Plastic CIDBOL").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas4).title("Papeleria Pacata").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas5).title("Aboneria el buen Samaritano").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas6).title("Baterias Pepe").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas7).title("Vidrieria Cristal").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas8).title("Recauchutadora Gudier").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas9).title("Fundidora Hacktoon").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas10).title("Proyecto Verde").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas11).title("CODEFF").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas12).title("Polambiente").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-         mMap.addMarker(new MarkerOptions().position(coordenadas13).title("ELDAN").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-        marcador = mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas1).title("Papelera Vinto").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas2).title("Panaflex").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas3).title("Plastic CIDBOL").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas4).title("Papeleria Pacata").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas5).title("Aboneria el buen Samaritano").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas6).title("Baterias Pepe").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas7).title("Vidrieria Cristal").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas8).title("Recauchutadora Gudier").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas9).title("Fundidora Hacktoon").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas10).title("Proyecto Verde").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas11).title("CODEFF").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas12).title("Polambiente").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas13).title("ELDAN").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
 
 
-
-
-
-
+        Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 16);
-        if (marcador != null) marcador.remove();
-        marcador = mMap.addMarker(new MarkerOptions().position(coordenadas)
-                .title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
-
+        if(marcador != null) marcador.remove();
+        marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
         mMap.animateCamera(miUbicacion);
     }
-
     private void actualizarUbicacion(Location location) {
-        if (location != null) {
+        if(location != null) {
             lat = location.getLatitude();
             lng = location.getLongitude();
             agregarMarcador(lat, lng);
         }
     }
-
     LocationListener locListener = new LocationListener() {
         @Override
         public void onLocationChanged(Location location) {
             actualizarUbicacion(location);
         }
-
         @Override
         public void onStatusChanged(String s, int i, Bundle bundle) {
         }
-
         @Override
         public void onProviderEnabled(String s) {
         }
-
         @Override
         public void onProviderDisabled(String s) {
         }
     };
-
     private void miUbicacion() {
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if(ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);

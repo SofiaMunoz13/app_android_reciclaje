@@ -37,7 +37,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="tipo de basura"
-                    android:textAllCaps="true"
                     android:textSize="36sp"
                     android:textStyle="normal|bold"/>
 
@@ -47,16 +46,16 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:text="vidrio"
-                    android:textAllCaps="true"
+                    android:textAllCaps="false"
                     android:textSize="30sp"
-                    android:buttonTint="@color/colorPrimaryDark"/>
+                    android:buttonTint="@color/colorPrimaryDark"
+                    />
 
                 <CheckBox
                     android:id="@+id/organico_check"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="organico"
-                    android:textAllCaps="true"
                     android:textSize="30sp"
                     android:buttonTint="@android:color/holo_orange_dark"/>
 
@@ -65,7 +64,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="plastico/metal"
-                    android:textAllCaps="true"
                     android:textSize="30sp"
                     android:buttonTint="@color/colorAmarillo"/>
 
@@ -74,7 +72,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="papel /carton"
-                    android:textAllCaps="true"
                     android:textSize="30sp"
                     android:buttonTint="@android:color/holo_blue_dark"/>
 
@@ -83,7 +80,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="pilas y baterias"
-                    android:textAllCaps="true"
                     android:textSize="30sp"
                     android:buttonTint="@android:color/holo_red_dark"/>
 
@@ -91,16 +87,14 @@
                     android:id="@+id/basura_check"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Material no reciclable y otros"
-                    android:textAllCaps="true"
+                    android:text="Material no reciclable"
                     android:textSize="30sp"/>
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="descripcion"
-                    android:textAllCaps="true"
+                    android:text="Descripcion"
                     android:textSize="18sp"/>
 
                 <EditText
@@ -110,14 +104,6 @@
                     android:ems="10"
                     android:inputType="textMultiLine"
                     android:lines="6"/>
-
-                <Button
-                    android:id="@+id/btnReport"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorPrimary"
-                    android:text="Denunciar"/>
-
 
             </LinearLayout>
         </LinearLayout>

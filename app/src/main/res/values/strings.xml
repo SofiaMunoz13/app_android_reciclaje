@@ -31,7 +31,6 @@
 
         "when a user tries to pick up one of cards.\n\n"
     </string>
-
     <string name="Vidrio_metodo_text">
             "Vidrio\n\n"
 
@@ -105,9 +104,6 @@
             "Correo: No Disponible.\n"
 
     </string>
-
-
-
     <string name="informacion_papel_text">
                                   "RECOJIDA DEL ENVASE \n\n"
 
@@ -380,4 +376,5 @@
     <string name="metodo_de_reciclaje">Metodo de reciclaje</string>
     <string name="title_activity_report">Reportar foco de infeccion</string>
     <string name="title_activity_inicio"> </string>
+    <string name="title_activity_borrame">BorrameActivity</string>
 </resources>
