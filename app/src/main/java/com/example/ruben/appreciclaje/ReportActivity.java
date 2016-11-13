@@ -61,7 +61,7 @@ public class ReportActivity extends AppCompatActivity implements View.OnClickLis
     private void sendReport() {
         Toast.makeText(this,"Enviando",Toast.LENGTH_SHORT).show();
         showProgress(true);
-        String id = Secure.getString(getBaseContext().getContentResolver(), Secure.ANDROID_ID);
+        String id = "1";
         client = new AsyncHttpClient();
         params = new RequestParams();
         params.put("nameUser", id);

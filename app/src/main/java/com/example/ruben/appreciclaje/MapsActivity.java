@@ -39,27 +39,26 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         miUbicacion();
     }
     private void agregarMarcador(double lat, double lng) {
-        LatLng coordenadas = new LatLng(lat, lng);
-        LatLng coordenadas1 = new LatLng(- 17.372654, - 66.136376);
-        LatLng coordenadas2 = new LatLng(- 17.371364, - 66.140088);
-        LatLng coordenadas3 = new LatLng(- 17.373872, - 66.138962);
-        LatLng coordenadas4 = new LatLng(- 17.373330, - 66.130035);
-        LatLng coordenadas5 = new LatLng(- 17.367462, - 66.138672);
-        LatLng coordenadas6 = new LatLng(- 17.370401, - 66.141740);
-        LatLng coordenadas7 = new LatLng(- 17.365220, - 66.138768);
-        LatLng coordenadas8 = new LatLng(- 17.367094, - 66.148660);
-        LatLng coordenadas9 = new LatLng(- 17.371333, - 66.149390);
-        LatLng coordenadas10 = new LatLng(- 17.366408, - 66.130218);
-        LatLng coordenadas11 = new LatLng(- 17.362947, - 66.140968);
-        LatLng coordenadas12 = new LatLng(- 17.376209, - 66.135607);
-        LatLng coordenadas13 = new LatLng(- 17.373239, - 66.130757);
-        LatLng coordenadas14 = new LatLng(- 17.365539, - 66.132056);
+        LatLng coordenadas = new LatLng(-17.371097, -66.136642);
+        LatLng coordenadas1 = new LatLng(-17.372654, - 66.136376);
+        LatLng coordenadas2 = new LatLng(-17.371364, - 66.140088);
+        LatLng coordenadas3 = new LatLng(-17.373872, - 66.138962);
+        LatLng coordenadas4 = new LatLng(-17.373330, - 66.130035);
+        LatLng coordenadas5 = new LatLng(-17.367462, - 66.138672);
+        LatLng coordenadas6 = new LatLng(-17.370401, - 66.141740);
+        LatLng coordenadas7 = new LatLng(-17.365220, - 66.138768);
+        LatLng coordenadas8 = new LatLng(-17.367094, - 66.148660);
+        LatLng coordenadas9 = new LatLng(-17.371333, - 66.149390);
+        LatLng coordenadas10 = new LatLng(-17.366408, -66.130218);
+        LatLng coordenadas11 = new LatLng(-17.362947, -66.140968);
+        LatLng coordenadas12 = new LatLng(-17.376209, -66.135607);
+        LatLng coordenadas13 = new LatLng(-17.373239, -66.130757);
+        LatLng coordenadas14 = new LatLng(-17.365539, -66.132056);
 
         Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
         CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 12);
         if(marcador != null) marcador.remove();
 
-        mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas1).title("Papelera Vinto").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas2).title("Panaflex").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas3).title("Plastic CIDBOL").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
@@ -73,6 +72,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(coordenadas11).title("CODEFF").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas12).title("Polambiente").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas13).title("ELDAN").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
+        mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
 
         mMap.animateCamera(miUbicacion);
     }
