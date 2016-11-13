@@ -55,9 +55,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng coordenadas13 = new LatLng(-17.373239, -66.130757);
         LatLng coordenadas14 = new LatLng(-17.365539, -66.132056);
 
-        Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
-        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 12);
-        if(marcador != null) marcador.remove();
+        Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_rojo)));
+        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 15);
+        //if(marcador != null) marcador.remove();
 
         mMap.addMarker(new MarkerOptions().position(coordenadas1).title("Papelera Vinto").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas2).title("Panaflex").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
