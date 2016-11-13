@@ -55,6 +55,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng coordenadas13 = new LatLng(- 17.373239, - 66.130757);
         LatLng coordenadas14 = new LatLng(- 17.365539, - 66.132056);
 
+        Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
+        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 12);
+        if(marcador != null) marcador.remove();
+
+        mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas1).title("Papelera Vinto").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas2).title("Panaflex").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas3).title("Plastic CIDBOL").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
@@ -69,11 +74,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(coordenadas12).title("Polambiente").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
         mMap.addMarker(new MarkerOptions().position(coordenadas13).title("ELDAN").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
 
-
-        Marker marcador = mMap.addMarker(new MarkerOptions().position(coordenadas14).title("BIOILS").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador_verde)));
-        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 16);
-        if(marcador != null) marcador.remove();
-        marcador = mMap.addMarker(new MarkerOptions().position(coordenadas).title("Mi Posicion").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_marcador)));
         mMap.animateCamera(miUbicacion);
     }
     private void actualizarUbicacion(Location location) {

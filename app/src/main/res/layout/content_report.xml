@@ -33,6 +33,24 @@
                 android:background="@color/colorFont"
                 android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Descripcion"
+                    android:textSize="18sp"/>
+
+                <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:lines="7"
+                android:layout_margin="5dp"
+                android:background="@android:color/white"
+                />
+
                 <CheckBox
                     android:id="@+id/vidrio_check"
                     android:layout_width="wrap_content"
@@ -82,24 +100,6 @@
                     android:layout_height="wrap_content"
                     android:text="Material no reciclable"
                     android:textSize="25sp"/>
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Descripcion"
-                    android:textSize="18sp"/>
-
-                <EditText
-                    android:id="@+id/editText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textMultiLine"
-                    android:lines="7"
-                    android:layout_margin="5dp"
-                    android:background="@android:color/white"
-                    />
 
                 <TextView
                     android:text=""

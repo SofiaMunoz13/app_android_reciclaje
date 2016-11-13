@@ -2,7 +2,7 @@ package com.example.ruben.appreciclaje.conexion;
 
 public class Conexion {
 
-    private static String ip="http://192.168.1.37/";
+    private static String ip="http://192.168.1.34/";
     private static String dirUser="sider/";
     private static String[] pagina={"insertSession", "insertMesaje"};
     private static String urlServer=ip+dirUser;

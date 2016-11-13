@@ -59,8 +59,9 @@ public class ReportActivity extends AppCompatActivity implements View.OnClickLis
         boton.setOnClickListener(this);
     }
     private void sendReport() {
-        String id = Secure.getString(getBaseContext().getContentResolver(), Secure.ANDROID_ID);
+        Toast.makeText(this,"Enviando",Toast.LENGTH_SHORT).show();
         showProgress(true);
+        String id = Secure.getString(getBaseContext().getContentResolver(), Secure.ANDROID_ID);
         client = new AsyncHttpClient();
         params = new RequestParams();
         params.put("nameUser", id);
@@ -138,7 +139,7 @@ public class ReportActivity extends AppCompatActivity implements View.OnClickLis
                 text.setText(ruta_fotos);
                 break;
             case R.id.btnReport:
-                Toast.makeText(this,"Enviado",Toast.LENGTH_LONG).show();
+                sendReport();
         }
     }
 }
