@@ -1,18 +1,24 @@
 package com.example.ruben.appreciclaje;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.provider.Settings;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.provider.Settings.Secure;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.InputType;
+import android.util.Log;
+import android.view.Menu;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ruben.appreciclaje.conexion.Conexion;
@@ -25,21 +31,32 @@ import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class ReportActivity extends AppCompatActivity implements View.OnClickListener {
     protected View mProgressView;
     protected View mLoginFormView;
     protected String nameUser;
     protected AsyncHttpClient client;
     protected RequestParams params;
+    private final String ruta_fotos = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)+"/misfotos/";
+    private File file = new File(ruta_fotos);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(this);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        FloatingActionButton botonRep = (FloatingActionButton) findViewById(R.id.btnReport);
+        botonRep.setOnClickListener(this);
+        FloatingActionButton boton = (FloatingActionButton) findViewById(R.id.btnCamera);
+        //Si no existe crea la carpeta donde se guardaran las fotos
+        file.mkdirs();
+        boton.setOnClickListener(this);
     }
     private void sendReport() {
         String id = Secure.getString(getBaseContext().getContentResolver(), Secure.ANDROID_ID);
@@ -101,6 +118,27 @@ public class ReportActivity extends AppCompatActivity implements View.OnClickLis
                 intent = new Intent(ReportActivity.this, MapsActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btnCamera:
+                String file = ruta_fotos+"123456.jpg";
+                File mi_foto = new File(file);
+                try {
+                    mi_foto.createNewFile();
+                } catch(IOException ex) {
+                    Log.e("ERROR ", "Error:"+ex);
+                }
+                //
+                Uri uri = Uri.fromFile(mi_foto);
+                //Abre la camara para tomar la foto
+                Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                //Guarda imagen
+                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+                //Retorna a la actividad
+                startActivityForResult(cameraIntent, 0);
+                TextView text=(TextView)findViewById(R.id.imagePhoto);
+                text.setText(ruta_fotos);
+                break;
+            case R.id.btnReport:
+                Toast.makeText(this,"Enviado",Toast.LENGTH_LONG).show();
         }
     }
 }

@@ -36,78 +36,75 @@
     <include layout="@layout/content_report"/>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@mipmap/ic_reporte"/>
-
-
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="90dp"
-        app:srcCompat="@mipmap/image_reporte"
-        android:id="@+id/btnReport" />
-    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="150dp"
-        app:srcCompat="@mipmap/ic_camera"
-        android:id="@+id/btnCamera" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:background="@color/colorFood"
+        app:srcCompat="@mipmap/ic_camera"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnReport"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@mipmap/image_reporte"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorFood"
         android:isScrollContainer="false"
-        android:layout_gravity="bottom">
+        android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_papel"
             android:id="@+id/btnImageCarton"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_vidrio"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_papel"/>
+
+        <ImageView
             android:id="@+id/btnImageVidrio"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_plastico"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_vidrio"/>
+
+        <ImageView
             android:id="@+id/btnImagePlastico"
-            android:layout_weight=".16"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_metal"
+            android:layout_weight=".16"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_plastico"/>
+
+        <ImageView
             android:id="@+id/btnImageMetal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
             android:layout_weight=".16"
-            android:contentDescription="@string/mr_button_content_description"/>
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_metal"/>
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_bateria"
             android:id="@+id/btnImageBateria"
-            android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/size_foot"
-            app:srcCompat="@mipmap/foot_organico"
-            android:id="@+id/btnImageOrganico"
             android:layout_weight=".17"
-            android:contentDescription="@string/mr_button_content_description"/>
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_bateria"/>
+
+        <ImageView
+            android:id="@+id/btnImageOrganico"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_foot"
+            android:layout_weight=".17"
+            android:contentDescription="@string/mr_button_content_description"
+            app:srcCompat="@mipmap/foot_organico"/>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

@@ -11,7 +11,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,67 +33,59 @@
                 android:background="@color/colorFont"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tipo de basura"
-                    android:textSize="36sp"
-                    android:textStyle="normal|bold"/>
-
                 <CheckBox
                     android:id="@+id/vidrio_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:text="vidrio"
                     android:textAllCaps="false"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:buttonTint="@color/colorPrimaryDark"
                     />
 
                 <CheckBox
                     android:id="@+id/organico_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="organico"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:buttonTint="@android:color/holo_orange_dark"/>
 
                 <CheckBox
                     android:id="@+id/plastico_metal_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="plastico/metal"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:buttonTint="@color/colorAmarillo"/>
 
                 <CheckBox
                     android:id="@+id/papel_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="papel /carton"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:buttonTint="@android:color/holo_blue_dark"/>
 
                 <CheckBox
                     android:id="@+id/pila_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="pilas y baterias"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:buttonTint="@android:color/holo_red_dark"/>
 
                 <CheckBox
                     android:id="@+id/basura_check"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Material no reciclable"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Descripcion"
                     android:textSize="18sp"/>
@@ -103,7 +96,16 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textMultiLine"
-                    android:lines="6"/>
+                    android:lines="7"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imagePhoto"/>
 
             </LinearLayout>
         </LinearLayout>
